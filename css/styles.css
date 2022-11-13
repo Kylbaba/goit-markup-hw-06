@@ -1,0 +1,138 @@
+:root {
+  --text-color-black: #212121;
+  --text-color-grey: #757575;
+  --text-color-white: #ffffff;
+  --brand-color-blue: #2196f3;
+  --brand-color: #e5e5e5;
+  --brand-bottom-color: #f5f4fa;
+  --brand-color-dark: #2f303a;
+}
+
+body {
+  font-family: 'Roboto' sans-serif;
+  font-style: normal;
+  color: var(--text-color-black);
+  margin: 0;
+}
+
+.logo {
+  font-family: 'Raleway';
+  color: var(--brand-color-blue);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.header-section {
+  background-color: var(--brand-color-dark);
+}
+
+h1 {
+  color: var(--text-color-white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 0.7;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.8;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 0.8;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.main-text-block {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 0.5;
+  letter-spacing: 0.03em;
+  color: var(--text-color-grey);
+}
+
+li a {
+  text-decoration: none;
+  color: var(--text-color-black);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.8;
+  letter-spacing: 0.02em;
+}
+
+a:hover {
+  color: var(--brand-color-blue);
+}
+
+button {
+  background-color: var(--brand-bottom-color);
+  cursor: pointer;
+  border: 0;
+}
+
+button:hover {
+  background-color: var(--brand-color-blue);
+  color: var(--text-color-white, white);
+}
+.our-team {
+  background-color: var(--brand-color);
+  margin: 0;
+}
+ul {
+  margin: 0;
+}
+.name-block {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.8;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color-grey);
+  margin: 0;
+}
+.contacts {
+  color: var(--text-color-grey, grey);
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.brand-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0.5;
+  letter-spacing: 0.06em;
+}
+.type-of-work {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.5;
+  letter-spacing: 0.03em;
+  color: var(--text-color-grey);
+}
+
+footer {
+  background-color: var(--brand-color-dark);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 0.5;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
