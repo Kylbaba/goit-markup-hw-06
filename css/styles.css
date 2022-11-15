@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   color: var(--text-color-black);
   margin: 0;
@@ -29,32 +29,35 @@ body {
   background-color: var(--brand-color-dark);
 }
 
-h1 {
+.main-heding {
   color: var(--text-color-white);
   font-weight: 900;
   font-size: 44px;
-  line-height: 0.7;
+  line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-h2 {
+.main-sub-heading {
   font-weight: 700;
   font-size: 36px;
-  line-height: 0.8;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
-h3 {
-  font-weight: 700;
+.our-team {
+  background-color: var(--brand-color);
+  margin: 0;
+}
+
+.article-heading {
   font-size: 14px;
-  line-height: 0.8;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .main-text-block {
-  font-weight: 400;
   font-size: 14px;
   line-height: 0.5;
   letter-spacing: 0.03em;
@@ -63,10 +66,11 @@ h3 {
 
 li a {
   text-decoration: none;
+  font-style: normal;
   color: var(--text-color-black);
   font-weight: 500;
   font-size: 14px;
-  line-height: 0.8;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 }
 
@@ -84,9 +88,21 @@ button:hover {
   background-color: var(--brand-color-blue);
   color: var(--text-color-white, white);
 }
-.our-team {
-  background-color: var(--brand-color);
-  margin: 0;
+.main-botton {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.portfolio-botom {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 ul {
   margin: 0;
@@ -94,14 +110,13 @@ ul {
 .name-block {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .profession {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 0.8;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color-grey);
@@ -117,22 +132,23 @@ li {
 .brand-name {
   font-weight: 700;
   font-size: 18px;
-  line-height: 0.5;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 .type-of-work {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 0.5;
+  line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--text-color-grey);
 }
 
 footer {
   background-color: var(--brand-color-dark);
-  font-weight: 400;
   font-size: 14px;
-  line-height: 0.5;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+.map {
+  color: var(--text-color-white);
 }
