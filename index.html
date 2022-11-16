@@ -4,16 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Raleway -->
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />-->
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
       rel="stylesheet"
     />
-    <!-- roboto -->
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />-->
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -21,14 +15,14 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>WebStudio</title>
   </head>
-  <body>
+  <body class="main-style">
     <header>
       <a href="index.html" class="logo">WebStudio</a>
       <nav>
-        <ul>
-          <li><a href="index.html">Studio</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="#contacts">Contacts</a></li>
+        <ul class="lists">
+          <li><a class="naw-lists-link" href="index.html">Studio</a></li>
+          <li><a class="naw-lists-link" href="portfolio.html">Portfolio</a></li>
+          <li><a class="naw-lists-link" href="#contacts">Contacts</a></li>
         </ul>
       </nav>
       <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -37,10 +31,10 @@
     <main>
       <section class="header-section">
         <h1 class="main-heding">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-        <button type="button" class="main-botton">Request our service</button>
+        <button class="btn main-btn" type="button">Request our service</button>
       </section>
       <section>
-        <ul>
+        <ul class="lists">
           <li>
             <h3 class="article-heading">ATTENTION TO DETAILS</h3>
             <p class="main-text-block">
@@ -72,7 +66,7 @@
       </section>
       <section>
         <h2 class="main-sub-heading">What we do</h2>
-        <ul>
+        <ul class="lists">
           <li><img src="images/box_one.jpg" alt="image" width="370" height="294" /></li>
           <li><img src="images/box_two.jpg" alt="image" width="370" height="294" /></li>
           <li><img src="images/box_three.jpg" alt="image" width="370" height="294" /></li>
@@ -80,7 +74,7 @@
       </section>
       <section class="our-team">
         <h2 class="main-sub-heading">Our Team</h2>
-        <ul>
+        <ul class="lists">
           <li>
             <img
               src="images/cristopher_walker.jpg"
@@ -109,10 +103,10 @@
         </ul>
       </section>
     </main>
-    <footer id="contacts">
+    <footer class="style-footer" id="contacts">
       <a href="index.html" class="logo">WebStudio</a>
       <address>
-        <ul>
+        <ul class="lists">
           <li>
             <a
               class="map"
@@ -123,8 +117,10 @@
               695 Park Ave, New York, NY 10065, United States
             </a>
           </li>
-          <li><a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="contacts" href="tel:+1212-772-4150">+1 212-772-4150</a></li>
+          <li>
+            <a class="footer-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li><a class="footer-contacts" href="tel:+1212-772-4150">+1 212-772-4150</a></li>
         </ul>
       </address>
     </footer>
