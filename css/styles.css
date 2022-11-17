@@ -146,7 +146,7 @@
   height: 252px;
 }
 .footer-contacts {
-  color: var(--text-color-grey, grey);
+  color: var(--text-color-white);
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
