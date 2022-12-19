@@ -12,117 +12,142 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <title>WebStudio</title>
   </head>
   <body class="main-style">
-    <header>
-      <a href="index.html" class="logo">WebStudio</a>
-      <nav>
-        <ul class="lists">
-          <li><a class="naw-lists-link" href="index.html">Studio</a></li>
-          <li><a class="naw-lists-link" href="portfolio.html">Portfolio</a></li>
-          <li><a class="naw-lists-link" href="#contacts">Contacts</a></li>
-        </ul>
-      </nav>
-      <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a class="contacts" href="tel:+1212-772-4150">+1 212-772-4150</a>
+    <header class="hed-lists">
+      <div class="container">
+        <a href="index.html" class="logo head-logo">WebStudio</a>
+        <nav>
+          <ul class="lists navigation">
+            <li><a class="naw-lists-link" href="index.html">Studio</a></li>
+            <li><a class="naw-lists-link" href="portfolio.html">Portfolio</a></li>
+            <li><a class="naw-lists-link" href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="header-contacts">
+          <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="contacts" href="tel:+1212-772-4150">+1 212-772-4150</a>
+        </div>
+      </div>
     </header>
     <main>
       <section class="header-section">
-        <h1 class="main-heding">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-        <button class="btn main-btn" type="button">Request our service</button>
+        <div class="container">
+          <h1 class="main-heding">
+            EFFECTIVE SOLUTIONS FOR<br />
+            YOUR BUSINESS
+          </h1>
+          <button class="btn main-btn" type="button">Request our service</button>
+        </div>
       </section>
-      <section>
-        <ul class="lists">
-          <li>
-            <h3 class="article-heading">ATTENTION TO DETAILS</h3>
-            <p class="main-text-block">
-              We go into all the details and processes of your business to develop a customized
-              solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="article-heading">PUNCTUALITY</h3>
-            <p class="main-text-block">
-              With us, you can feel safe and secure. An important principle of the company: respect
-              your time and respect the agreed deadlines.
-            </p>
-          </li>
-          <li>
-            <h3 class="article-heading">PLANNING</h3>
-            <p class="main-text-block">
-              You will be able to observe and participate in every phase of solution development and
-              implementation.
-            </p>
-          </li>
-          <li>
-            <h3 class="article-heading">MODERN TECHNOLOGIES</h3>
-            <p class="main-text-block">
-              We use innovative tools to solve assigned tasks. It's time to simplify work processes.
-            </p>
-          </li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <ul class="lists flex-ul">
+            <li>
+              <h3 class="article-heading">ATTENTION TO DETAILS</h3>
+              <p class="main-text-block">
+                We go into all the details and processes of your business to develop a customized
+                solution.
+              </p>
+            </li>
+            <li>
+              <h3 class="article-heading">PUNCTUALITY</h3>
+              <p class="main-text-block">
+                With us, you can feel safe and secure. An important principle of the company:
+                respect your time and respect the agreed deadlines.
+              </p>
+            </li>
+            <li>
+              <h3 class="article-heading">PLANNING</h3>
+              <p class="main-text-block">
+                You will be able to observe and participate in every phase of solution development
+                and implementation.
+              </p>
+            </li>
+            <li>
+              <h3 class="article-heading">MODERN TECHNOLOGIES</h3>
+              <p class="main-text-block">
+                We use innovative tools to solve assigned tasks. It's time to simplify work
+                processes.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <h2 class="main-sub-heading">What we do</h2>
-        <ul class="lists">
-          <li><img src="images/box_one.jpg" alt="image" width="370" height="294" /></li>
-          <li><img src="images/box_two.jpg" alt="image" width="370" height="294" /></li>
-          <li><img src="images/box_three.jpg" alt="image" width="370" height="294" /></li>
-        </ul>
+      <section class="section-whatwedo section">
+        <div class="container">
+          <h2 class="main-sub-heading">What are we doing</h2>
+          <ul class="lists flex-ul">
+            <li><img src="images/box_one.jpg" alt="image" width="370" height="294" /></li>
+            <li><img src="images/box_two.jpg" alt="image" width="370" height="294" /></li>
+            <li><img src="images/box_three.jpg" alt="image" width="370" height="294" /></li>
+          </ul>
+        </div>
       </section>
-      <section class="our-team">
-        <h2 class="main-sub-heading">Our Team</h2>
-        <ul class="lists">
-          <li>
-            <img
-              src="images/cristopher_walker.jpg"
-              alt="photo cristopher walker"
-              width="270"
-              height="260"
-            />
-            <p class="name-block">Christopher Walker</p>
-            <p class="profession">Product Designer</p>
-          </li>
-          <li>
-            <img src="images/kylie_evans.jpg" alt="photo kylie evans" width="270" height="260" />
-            <p class="name-block">Kylie Evans</p>
-            <p class="profession">Frontend Developer</p>
-          </li>
-          <li>
-            <img src="images/ryan_harris.jpg" alt="photo ryan harris" width="270" height="260" />
-            <p class="name-block">Ryan Harris</p>
-            <p class="profession">Marketing</p>
-          </li>
-          <li>
-            <img src="images/tyler_moore.jpg" alt="photo tyler moore" width="270" height="260" />
-            <p class="name-block">Tyler Moore</p>
-            <p class="profession">UI Designer</p>
-          </li>
-        </ul>
+      <section class="our-team section">
+        <div class="container">
+          <h2 class="main-sub-heading">Our Team</h2>
+          <ul class="lists employees flex-ul profesion-block">
+            <li>
+              <img
+                src="images/cristopher_walker.jpg"
+                alt="photo cristopher walker"
+                width="270"
+                height="260"
+              />
+              <p class="name-block">Christopher Walker</p>
+              <p class="profession">Product Designer</p>
+            </li>
+            <li>
+              <img src="images/kylie_evans.jpg" alt="photo kylie evans" width="270" height="260" />
+              <p class="name-block">Kylie Evans</p>
+              <p class="profession">Frontend Developer</p>
+            </li>
+            <li>
+              <img src="images/ryan_harris.jpg" alt="photo ryan harris" width="270" height="260" />
+              <p class="name-block">Ryan Harris</p>
+              <p class="profession">Marketing</p>
+            </li>
+            <li>
+              <img src="images/tyler_moore.jpg" alt="photo tyler moore" width="270" height="260" />
+              <p class="name-block">Tyler Moore</p>
+              <p class="profession">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="style-footer" id="contacts">
-      <a href="index.html" class="logo">WebStudio</a>
-      <address>
-        <ul class="lists">
-          <li>
-            <a
-              class="map"
-              target="_blank"
-              href="https://goo.gl/maps/SYb4XQpJrTqaNhLD6"
-              rel="noreferrer noopener"
-            >
-              695 Park Ave, New York, NY 10065, United States
-            </a>
-          </li>
-          <li>
-            <a class="footer-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li><a class="footer-contacts" href="tel:+1212-772-4150">+1 212-772-4150</a></li>
-        </ul>
-      </address>
+      <div class="container">
+        <a href="index.html" class="logo logo-footer">WebStudio</a>
+        <address>
+          <ul class="lists address-footer-prop">
+            <li>
+              <a
+                class="map"
+                target="_blank"
+                href="https://goo.gl/maps/SYb4XQpJrTqaNhLD6"
+                rel="noreferrer noopener"
+              >
+                695 Park Ave, New York, NY 10065, United States
+              </a>
+            </li>
+            <li>
+              <a class="footer-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li><a class="footer-contacts" href="tel:+1212-772-4150">+1 212-772-4150</a></li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
