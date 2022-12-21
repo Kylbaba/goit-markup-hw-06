@@ -170,6 +170,7 @@ header .container {
   cursor: pointer;
   border: 0;
 }
+.btn:focus,
 .btn:hover {
   background-color: var(--brand-color-blue);
   color: var(--text-color-white, white);
