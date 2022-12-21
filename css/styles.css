@@ -14,6 +14,7 @@
   font-style: normal;
   color: var(--text-color-black);
   margin: 0;
+  text-align: center;
 }
 
 header .container {
@@ -54,6 +55,7 @@ header .container {
   text-transform: uppercase;
 }
 .logo-footer {
+  text-align: left;
   padding-bottom: 16px;
   color: var(--brand-color-shad);
   font-weight: 800;
@@ -72,9 +74,9 @@ header .container {
 .naw-lists-link {
   text-decoration: none;
   color: var(--text-color-black);
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 1.14;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .naw-lists-link:hover {
@@ -92,10 +94,9 @@ header .container {
 .main-heding {
   color: var(--text-color-white);
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   padding-top: 200px;
   padding-bottom: 30px;
@@ -103,14 +104,13 @@ header .container {
 .main-sub-heading {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   padding-bottom: 60px;
+  text-transform: capitalize;
 }
 .our-team {
   background-color: var(--brand-color-shad);
-  text-align: center;
 }
 .container {
   width: 1128px;
@@ -118,17 +118,17 @@ header .container {
 }
 .article-heading {
   text-align: left;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   padding-bottom: 9.41px;
 }
 .main-text-block {
   text-align: left;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--text-color-grey);
   /* width: 264px; */
 }
@@ -154,10 +154,10 @@ header .container {
 .main-btn {
   display: flex;
   justify-content: center;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: var(--text-color-white);
   margin: auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -183,7 +183,6 @@ header .container {
   padding-bottom: 120px;
 }
 .section-whatwedo {
-  text-align: center;
   padding-top: 0px;
 }
 .portfolio-botom-section {
@@ -197,11 +196,10 @@ header .container {
   gap: 0px 24px;
 }
 .portfolio-botom {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: var(--brand-bottom-color);
   border-radius: 4px;
   padding: 12px 24px;
@@ -221,21 +219,18 @@ header .container {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .name-block {
-  text-align: center;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   padding-top: 30px;
   padding-bottom: 10px;
 }
 .profession {
-  text-align: center;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--text-color-grey);
   padding-bottom: 30px;
 }
@@ -248,9 +243,9 @@ header .container {
 .contacts {
   color: var(--text-color-grey, grey);
   text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .contacts:hover {
@@ -258,10 +253,10 @@ header .container {
 }
 .brand-name {
   text-align: left;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   padding-left: 24px;
   padding-top: 20px;
   padding-bottom: 4px;
@@ -269,8 +264,8 @@ header .container {
 .type-of-work {
   text-align: left;
   font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.03em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--text-color-grey);
   padding-left: 24px;
   padding-bottom: 20px;
@@ -287,4 +282,5 @@ header .container {
 }
 .container-footer {
   padding: 100px 0px;
+  text-align: left;
 }
