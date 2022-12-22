@@ -9,14 +9,16 @@
   --text-color-footer: #e7e9fc;
   --brand-color-shad: #f4f4fd;
 }
-* {
+
+body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   color: var(--text-color-black);
-  margin: 0;
   text-align: center;
 }
-
+* {
+  margin: 0;
+}
 header .container {
   display: flex;
   align-items: center;
@@ -45,7 +47,6 @@ header .container {
 .logo {
   display: block;
   font-family: 'Raleway';
-  font-style: normal;
   color: var(--text-color-black);
   font-weight: 700;
   font-size: 26px;
@@ -82,6 +83,9 @@ header .container {
 .naw-lists-link:hover {
   color: var(--brand-color-blue);
 }
+.active {
+  color: var(--brand-color-blue);
+}
 
 .address-footer-prop {
   padding-left: 0px;
@@ -91,6 +95,7 @@ header .container {
   background-color: var(--brand-color-dark);
   padding-bottom: 200px;
 }
+
 .main-heding {
   color: var(--text-color-white);
   font-weight: 900;
@@ -165,8 +170,7 @@ header .container {
   padding: 10px 20px;
 }
 .btn {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
+  font-family: inherit;
   cursor: pointer;
   border: 0;
 }
@@ -213,7 +217,6 @@ header .container {
   line-height: 0;
 }
 .box li {
-  /* border-width: 0px 1px 1px 1px; */
   border-style: solid;
   border: 0.5px;
   border-color: var(--brand-color-shad);
