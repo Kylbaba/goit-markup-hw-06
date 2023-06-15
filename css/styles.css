@@ -16,18 +16,23 @@ body {
   color: var(--text-color-black);
   text-align: center;
 }
+img {
+  display: block;
+}
 * {
   margin: 0;
+  text-decoration: none;
 }
 header .container {
   display: flex;
+  width: 1158px;
   align-items: center;
 }
 .header-pad {
   border-bottom: 1px solid;
-  border-color: var(--brand-color);
+  border-color: var(--brand-bottom-color);
 }
-.hed-lists {
+.head-lists {
   padding-bottom: 24px;
   padding-top: 24px;
 }
@@ -41,6 +46,9 @@ header .container {
 .header-contacts {
   margin-left: auto;
 }
+.header-contacts:last-child {
+  margin-right: 0;
+}
 .header-contacts a + a {
   margin-left: 40px;
 }
@@ -52,19 +60,8 @@ header .container {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-decoration: none;
+  /* text-decoration: none; */
   text-transform: uppercase;
-}
-.logo-footer {
-  text-align: left;
-  padding-bottom: 16px;
-  color: var(--brand-color-shad);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.167;
-}
-.logo-accent {
-  color: var(--brand-color-blue);
 }
 .navigation li {
   margin-right: 40px;
@@ -73,19 +70,23 @@ header .container {
   margin-right: 0px;
 }
 .naw-lists-link {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: var(--text-color-black);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/* .navigation:current(li, a) {
+  background-color: red;
+} */
 .naw-lists-link:hover {
   color: var(--brand-color-blue);
 }
-.active {
+
+/* .active {
   color: var(--brand-color-blue);
-}
+} */
 
 .address-footer-prop {
   padding-left: 0px;
@@ -93,26 +94,28 @@ header .container {
 }
 .header-section {
   background-color: var(--brand-color-dark);
-  padding-bottom: 200px;
+  padding: 188px 0;
 }
 
 .main-heding {
   color: var(--text-color-white);
-  font-weight: 900;
+  max-width: 496px;
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
-  padding-top: 200px;
-  padding-bottom: 30px;
+  text-transform: none;
+  margin: 0 auto;
+  padding-bottom: 48px;
 }
 .main-sub-heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .our-team {
   background-color: var(--brand-color-shad);
@@ -126,7 +129,7 @@ header .container {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+  text-transform: none;
   padding-bottom: 9.41px;
 }
 .main-text-block {
@@ -144,26 +147,28 @@ header .container {
   gap: 24px;
 }
 .lists {
-  text-decoration: none;
+  /* text-decoration: none; */
   list-style-type: none;
 }
 .lists-portfolio {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  text-decoration: none;
+  /* text-decoration: none; */
   list-style-type: none;
   padding: 0px;
   gap: 24px;
 }
 .main-btn {
-  display: flex;
+  display: block;
+  min-width: 169px;
   justify-content: center;
-  font-weight: 500;
+  font-weight: 900;
+  height: 56px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background-color: var(--text-color-white);
+  background-color: var(--brand-color-blue);
   margin: auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -194,7 +199,7 @@ header .container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  text-decoration: none;
+  /* text-decoration: none; */
   list-style-type: none;
   padding: 0px;
   padding-bottom: 72px;
@@ -222,13 +227,18 @@ header .container {
   border-color: var(--brand-color-shad);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+.employee-inf {
+  padding: 32px 16px;
+}
 .name-block {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  text-align: center;
+  margin-bottom: 8px;
+  /* padding-top: 30px; */
+  /* padding-bottom: 10px; */
 }
 .profession {
   font-weight: 400;
@@ -236,17 +246,18 @@ header .container {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color-grey);
-  padding-bottom: 30px;
+  text-align: center;
+  /* padding-bottom: 30px; */
 }
 .profesion-block li {
   background-color: var(--text-color-white);
-  border-radius: 4px;
+  border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .contacts {
   color: var(--text-color-grey, grey);
-  text-decoration: none;
+  /* text-decoration: none; */
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -276,8 +287,10 @@ header .container {
 }
 .style-footer {
   background-color: var(--brand-color-dark);
+  padding: 100px 0;
 }
 .foot-text {
+  max-width: 264px;
   color: var(--text-color-footer);
   font-weight: 400;
   font-size: 16px;
@@ -285,6 +298,18 @@ header .container {
   letter-spacing: 0.02em;
 }
 .container-footer {
-  padding: 100px 0px;
+  /* padding: 100px 0px; */
   text-align: left;
+}
+.logo-footer {
+  display: inline-block;
+  text-align: left;
+  color: var(--brand-color-shad);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.167;
+  margin-bottom: 16px;
+}
+.logo-accent {
+  color: var(--brand-color-blue);
 }

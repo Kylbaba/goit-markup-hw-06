@@ -23,7 +23,7 @@
     <title>WebStudio</title>
   </head>
   <body class="main-style">
-    <header class="hed-lists">
+    <header class="head-lists header-pad">
       <div class="container">
         <a href="index.html" class="logo head-logo"><span class="logo-accent">Web</span>Studio</a>
         <nav>
@@ -33,16 +33,15 @@
             <li><a class="naw-lists-link" href="#contacts">Contacts</a></li>
           </ul>
         </nav>
-        <div class="header-contacts">
-          <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          <a class="contacts" href="tel:+1212-772-4150">+11 (000) 111-11-11</a>
-        </div>
+        <ul class="lists header-contacts navigation">
+          <li><a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="contacts" href="tel:+1212-772-4150">+11 (000) 111-11-11</a></li>
       </div>
     </header>
     <main>
       <section class="header-section">
         <div class="container">
-          <h1 class="main-heding">EFFECTIVE SOLUTIONS <br />FOR YOUR BUSINESS</h1>
+          <h1 class="main-heding">Effective Solutions <br/>for Your Business</h1>
           <button class="btn main-btn" type="button">Order Service</button>
         </div>
       </section>
@@ -101,13 +100,14 @@
                 width="264"
                 height="260"
               />
-              <p class="name-block">Mark Guerrero</p>
-              <p class="profession">Product Designer</p>
+              <div class="employee-inf">
+              <h3 class="name-block">Mark Guerrero</h3>
+              <p class="profession">Product Designer</p></div>
             </li>
             <li>
               <img src="images/tom_ford.jpg" width="264" height="260" alt="photo Tom Ford" />
-              <p class="name-block">Tom Ford</p>
-              <p class="profession">Frontend Developer</p>
+              <div class="employee-inf"><h3 class="name-block">Tom Ford</h3>
+              <p class="profession">Frontend Developer</p></div>
             </li>
             <li>
               <img
@@ -116,8 +116,8 @@
                 height="260"
                 alt="photo Camila Garcia"
               />
-              <p class="name-block">Camila Garcia</p>
-              <p class="profession">Marketing</p>
+              <div class="employee-inf"><h3 class="name-block">Camila Garcia</h3>
+              <p class="profession">Marketing</p></div>
             </li>
             <li>
               <img
@@ -126,8 +126,10 @@
                 width="264"
                 height="260"
               />
-              <p class="name-block">Daniel Wilson</p>
+              <div class="employee-inf">
+                <h3 class="name-block">Daniel Wilson</h3>
               <p class="profession">UI Designer</p>
+            </div>
             </li>
           </ul>
         </div>
@@ -139,10 +141,10 @@
           <a href="index.html" class="logo logo-footer">
             <span class="logo-accent">Web</span>Studio
           </a>
-          <span class="foot-text"
+          <p class="foot-text"
             >Increase the flow of customers and <br />
             sales for your business with digital <br />
-            marketing & growth solutions.</span
+            marketing & growth solutions.</p
           >
         </div>
       </div>
