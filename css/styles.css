@@ -152,7 +152,7 @@ header .container {
 }
 .lists-portfolio {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   /* text-decoration: none; */
   list-style-type: none;
@@ -220,6 +220,7 @@ header .container {
 }
 .lists-portfolio li {
   line-height: 0;
+  justify-content: center;
 }
 .box li {
   border-style: solid;
