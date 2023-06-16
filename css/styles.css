@@ -153,7 +153,6 @@ header .container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* text-decoration: none; */
   list-style-type: none;
   padding: 0px;
   gap: 24px;
