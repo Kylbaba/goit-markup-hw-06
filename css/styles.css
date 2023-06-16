@@ -147,7 +147,6 @@ header .container {
   gap: 24px;
 }
 .lists {
-  /* text-decoration: none; */
   list-style-type: none;
 }
 .lists-portfolio {
@@ -199,7 +198,6 @@ header .container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* text-decoration: none; */
   list-style-type: none;
   padding: 0px;
   margin-bottom: 72px;
