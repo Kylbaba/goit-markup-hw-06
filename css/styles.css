@@ -157,6 +157,7 @@ header .container {
   list-style-type: none;
   padding: 0px;
   gap: 24px;
+  margin-bottom: 72px 
 }
 .main-btn {
   display: block;
@@ -196,7 +197,7 @@ header .container {
 }
 .portfolio-botom-section {
   display: flex;
-  justify-content: center;
+  justify-content:center;
   flex-wrap: wrap;
   list-style-type: none;
   padding: 0px;
