@@ -97,6 +97,19 @@ header .container {
   padding: 188px 0;
 }
 
+.visually-hidden {
+  position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 .main-heding {
   color: var(--text-color-white);
   max-width: 496px;
@@ -123,6 +136,7 @@ header .container {
 .container {
   width: 1128px;
   margin: 0 auto;
+  
 }
 .article-heading {
   text-align: left;
