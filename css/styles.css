@@ -16,13 +16,36 @@ body {
   color: var(--text-color-black);
   text-align: center;
 }
-img {
-  display: block;
-}
-* {
-  margin: 0;
+
+a {
   text-decoration: none;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+ list-style: none; 
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 header .container {
   display: flex;
   width: 1158px;
