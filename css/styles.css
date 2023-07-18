@@ -162,12 +162,13 @@ header .container {
   
 }
 .article-heading {
+  margin-bottom: 8px;
   text-align: left;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: none;
-  padding-bottom: 9.41px;
+
 }
 .main-text-block {
   text-align: left;
@@ -177,14 +178,10 @@ header .container {
   color: var(--text-color-grey);
   /* width: 264px; */
 }
+
 .flex-ul {
   display: flex;
-  justify-content: space-between;
-  padding: 0px;
-  gap: 24px;
-}
-.lists {
-  list-style-type: none;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .lists-portfolio {
   display: flex;
