@@ -181,7 +181,9 @@ header .container {
 
 .flex-ul {
   display: flex;
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  justify-content: space-between;
+  padding: 0px;
+  gap: 24px;
 }
 .lists-portfolio {
   display: flex;
