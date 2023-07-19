@@ -216,7 +216,7 @@ header .container {
   padding-bottom: 120px;
 }
 .portfolio-section {
-  padding-top: 96px;
+  /* padding-top: 96px; */
   padding-bottom: 120px;
 }
 .section-whatwedo {
@@ -314,13 +314,14 @@ header .container {
   border: 0.5px;
   border-color: var(--brand-color-shad);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-  width: calc((100%-48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .brand-name-box{
   padding: 32px 16px;
   border: 1px solid  var(--brand-bottom-color);
   border-top: none;
+  
 }
 .brand-name {
   text-align: left;
