@@ -237,7 +237,7 @@ header .container {
   list-style-type: none;
   padding: 0px;
   margin-bottom: 72px;
-  gap: 0px 24px;
+  gap:24px;
 }
 .portfolio-botom {
   font-weight: 500;
@@ -259,6 +259,7 @@ header .container {
 .lists-portfolio li {
   line-height: 0;
   justify-content: center;
+  row-gap: 48px;
 }
 .box li {
   border-style: solid;
