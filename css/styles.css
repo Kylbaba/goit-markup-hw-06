@@ -259,9 +259,10 @@ header .container {
 .lists-portfolio li {
   line-height: 0;
   justify-content: center;
-  row-gap: 48px;
+
 }
 .box li {
+  row-gap: 48px;
   border-style: solid;
   border: 0.5px;
   border-color: var(--brand-color-shad);
@@ -306,15 +307,21 @@ header .container {
 .contacts:hover {
   color: var(--brand-color-blue);
 }
+.brand-name-box{
+  padding: 32px 16px;
+  border: 1px solid  var(--brand-bottom-color);
+  border-top: none;
+}
 .brand-name {
   text-align: left;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-left: 24px;
+  margin-bottom: 8px
+ /* padding-left: 24px;
   padding-top: 20px;
-  padding-bottom: 4px;
+  padding-bottom: 4px;*/
 }
 .type-of-work {
   text-align: left;
@@ -322,9 +329,9 @@ header .container {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color-grey);
-  padding-left: 24px;
+  /* padding-left: 24px;
   padding-bottom: 20px;
-}
+}*/
 .style-footer {
   background-color: var(--brand-color-dark);
   padding: 100px 0;
