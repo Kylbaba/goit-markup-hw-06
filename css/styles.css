@@ -216,8 +216,7 @@ header .container {
   padding-bottom: 120px;
 }
 .portfolio-section {
-  /* padding-top: 96px; */
-  padding-bottom: 120px;
+  padding: 96px 0 120px 0;
 }
 .section-whatwedo {
   padding-top: 0px;
