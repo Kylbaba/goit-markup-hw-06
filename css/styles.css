@@ -268,6 +268,9 @@ header .container {
   border-color: var(--brand-color-shad);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+.portfolio-pat{
+  row-gap: 48px; 
+}
 .employee-inf {
   padding: 32px 16px;
 }
