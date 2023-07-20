@@ -77,13 +77,16 @@ header .container {
 .header-contacts {
   margin-left: auto;
 }
-.header-contacts:last-child {
+/* .header-contacts:last-child {
   margin-right: 0;
-}
-.header-contacts a + a {
+} */
+/* .header-contacts a + a {
   margin-left: 40px;
+} */
+.header-contacts-new{
+  display: flex; 
+  gap: 40px;
 }
-
 .head-logo {
   display: block;
   font-family: 'Raleway';
@@ -285,7 +288,6 @@ header .container {
 }
 .contacts {
   color: var(--text-color-grey, grey);
-  /* text-decoration: none; */
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
