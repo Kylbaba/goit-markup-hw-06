@@ -71,11 +71,10 @@ header .container {
 .navv{
   display: flex;
   align-items: center;
-  
+
 }
 .navigation {
   display: flex;
-  padding-left: 0px;
 }
 .header-contacts {
   margin-left: auto;
