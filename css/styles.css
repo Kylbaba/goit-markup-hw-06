@@ -68,6 +68,11 @@ header .container {
 .head-logo {
   margin-right: 76px;
 }
+.navv{
+  display: flex;
+  align-items: center;
+  
+}
 .navigation {
   display: flex;
   padding-left: 0px;
@@ -89,7 +94,6 @@ header .container {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  /* text-decoration: none; */
   text-transform: uppercase;
 }
 .navigation li {
@@ -99,7 +103,6 @@ header .container {
   margin-right: 0px;
 }
 .naw-lists-link {
-  /* text-decoration: none; */
   color: var(--text-color-black);
   font-weight: 500;
   font-size: 16px;
