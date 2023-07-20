@@ -176,15 +176,21 @@ header .container {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color-grey);
+  /* width: calc((100% - 72px) / 4); */
   /* width: 264px; */
 }
 
 .flex-ul {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   gap: 24px;
 }
-
+.wedo-items{
+  width: calc((100% - 72px) / 3);
+}
+/* .calc{
+  /* width: calc((100% - 72px) / 4); 
+} */
 .main-btn {
   display: block;
   min-width: 169px;
