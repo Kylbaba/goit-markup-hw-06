@@ -182,9 +182,7 @@ header .container {
 .flex-ul {
   display: flex;
   justify-content: space-between;
-  /* padding: 0px; */
   gap: 24px;
-  padding: 32px 0;
 }
 
 .main-btn {
@@ -252,7 +250,7 @@ header .container {
 
 
 .employee-inf {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 .name-block {
   font-weight: 500;
