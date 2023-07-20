@@ -1,13 +1,15 @@
 :root {
   --text-color-black: #2e2f42;
   --text-color-grey: #757575;
+  --text-color-grey-addres: #434455;
   --text-color-white: #ffffff;
   --brand-color-blue: #4d5ae5;
-  --brand-color: #e5e5e5;
+  --brand-color: #e5e5e5; 
   --brand-bottom-color: #e7e9fc;
   --brand-color-dark: #2e2f42;
   --text-color-footer: #e7e9fc;
   --brand-color-shad: #f4f4fd;
+
 }
 
 body {
@@ -289,11 +291,12 @@ header .container {
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .contacts {
-  color: var(--text-color-grey, grey);
+  color: var(--text-color-grey-addres, #434455);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 .contacts:hover {
   color: var(--brand-color-blue);
