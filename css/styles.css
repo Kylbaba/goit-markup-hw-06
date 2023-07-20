@@ -186,11 +186,9 @@ header .container {
   gap: 24px;
 }
 .wedo-items{
-  width: calc((100% - 72px) / 3);
+  width: calc((100% - 48px) / 3);
 }
-/* .calc{
-  /* width: calc((100% - 72px) / 4); 
-} */
+
 .main-btn {
   display: block;
   min-width: 169px;
