@@ -46,6 +46,11 @@ img {
   height: auto;
 }
 
+.container {
+  width: 1128px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 header .container {
   display: flex;
   width: 1158px;
@@ -156,11 +161,7 @@ header .container {
 .our-team {
   background-color: var(--brand-color-shad);
 }
-.container {
-  width: 1128px;
-  margin: 0 auto;
-  
-}
+
 .article-heading {
   margin-bottom: 8px;
   text-align: left;
