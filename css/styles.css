@@ -323,6 +323,7 @@ header .container {
   width: calc((100%-48px) / 3);
 } */
 .portfolio-item{
+  color: var(--text-color-black, #2e2f42);
   border-style: solid;
   border: 0.5px;
   border-color: var(--brand-color-shad);
