@@ -65,9 +65,7 @@ header .container {
   padding-bottom: 24px;
   padding-top: 24px;
 }
-.head-logo {
-  margin-right: 76px;
-}
+
 .navv{
   display: flex;
   align-items: center;
@@ -85,7 +83,8 @@ header .container {
 .header-contacts a + a {
   margin-left: 40px;
 }
-.logo {
+
+.head-logo {
   display: block;
   font-family: 'Raleway';
   color: var(--text-color-black);
@@ -94,6 +93,7 @@ header .container {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .navigation li {
   margin-right: 40px;
@@ -362,6 +362,7 @@ header .container {
   text-align: left;
 }
 .logo-footer {
+  font-family: 'Raleway';
   display: inline-block;
   text-align: left;
   color: var(--brand-color-shad);
@@ -369,6 +370,8 @@ header .container {
   font-size: 18px;
   line-height: 1.167;
   margin-bottom: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .logo-accent {
   color: var(--brand-color-blue);
