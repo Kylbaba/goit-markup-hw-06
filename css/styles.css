@@ -46,11 +46,12 @@ img {
   height: auto;
 }
 
-.container {
-  width: 1128px;
+ .container {
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
+
 header .container {
   display: flex;
   width: 1158px;
@@ -105,9 +106,7 @@ header .container {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* .navigation:current(li, a) {
-  background-color: red;
-} */
+
 .naw-lists-link:hover {
   color: var(--brand-color-blue);
 }
@@ -183,8 +182,9 @@ header .container {
 .flex-ul {
   display: flex;
   justify-content: space-between;
-  padding: 0px;
+  /* padding: 0px; */
   gap: 24px;
+  padding: 32px 0;
 }
 
 .main-btn {
