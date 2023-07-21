@@ -305,10 +305,10 @@ header .container {
   row-gap: 48px;
   margin-bottom:0;
 }
-.lists-portfolio li {
+/* .lists-portfolio li {
   line-height: 0;
   justify-content: center;
-}
+} */
 
 /* .portfolio-item{
   border-style: solid;
