@@ -327,7 +327,6 @@ header .container {
 .brand-name {
   color: var(--text-color-black, #2e2f42);
   margin-bottom: 8px;
-  /* text-align: left; */
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -335,7 +334,6 @@ header .container {
   
 }
 .type-of-work {
-  /* text-align: left; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
