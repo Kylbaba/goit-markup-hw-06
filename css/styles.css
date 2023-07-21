@@ -14,9 +14,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  /* font-style: normal; */
   color: var(--text-color-black);
-  /* text-align: center; */
+  background-color: var( --text-color-white, #ffffff);
 }
 
 a {
@@ -272,8 +271,6 @@ header .container {
   letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 8px;
-  /* padding-top: 30px; */
-  /* padding-bottom: 10px; */
 }
 .profession {
   font-weight: 400;
@@ -282,7 +279,6 @@ header .container {
   letter-spacing: 0.02em;
   color: var(--text-color-grey);
   text-align: center;
-  /* padding-bottom: 30px; */
 }
 .profesion-block li {
   background-color: var(--text-color-white);
@@ -303,7 +299,6 @@ header .container {
 }
 .lists-portfolio {
   display: flex;
-  /* justify-content: center; */
   flex-wrap: wrap;
   list-style-type: none;
   gap: 24px;
@@ -314,22 +309,14 @@ header .container {
   line-height: 0;
   justify-content: center;
 }
-/* .box li {
 
-  border-style: solid;
-  border: 0.5px;
-  border-color: var(--brand-color-shad);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-  width: calc((100%-48px) / 3);
-} */
-
-.portfolio-item{
+/* .portfolio-item{
   border-style: solid;
   border: 0.5px;
   border-color: var(--brand-color-shad);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   width: calc((100% - 48px) / 3);
-}
+} */
 
 .brand-name-box{
   padding: 32px 16px;
