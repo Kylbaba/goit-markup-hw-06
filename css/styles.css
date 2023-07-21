@@ -14,9 +14,9 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
+  /* font-style: normal; */
   color: var(--text-color-black);
-  text-align: center;
+  /* text-align: center; */
 }
 
 a {
@@ -165,6 +165,7 @@ header .container {
   /* padding-bottom: 60px; */
   text-transform: capitalize;
   margin-bottom: 72px;
+  text-align: center;
 }
 .our-team {
   background-color: var(--brand-color-shad);
@@ -191,7 +192,6 @@ header .container {
 
 .flex-ul {
   display: flex;
-  /* justify-content: space-between; */
   gap: 24px;
 }
 .wedo-items{
@@ -322,8 +322,8 @@ header .container {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   width: calc((100%-48px) / 3);
 } */
+
 .portfolio-item{
-  color: var(--text-color-black, #2e2f42);
   border-style: solid;
   border: 0.5px;
   border-color: var(--brand-color-shad);
@@ -338,8 +338,9 @@ header .container {
   
 }
 .brand-name {
+  color: var(--text-color-black, #2e2f42);
   margin-bottom: 8px;
-  text-align: left;
+  /* text-align: left; */
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -347,7 +348,7 @@ header .container {
   
 }
 .type-of-work {
-  text-align: left;
+  /* text-align: left; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
