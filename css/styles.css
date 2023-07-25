@@ -1,6 +1,5 @@
 :root {
   --text-color-black: #2E2F42;
-  /* --text-color-grey: #757575; */
   --text-color-grey-addres: #434455;
  --background-color-grey: #2E2F42;
   --text-color-white: #ffffff;
@@ -18,7 +17,6 @@
   --brand-color-shad: #f4f4fd;
   --dairy:#FCFCFC;
   --green:#31D0AA;
-
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -119,20 +117,21 @@ header .container {
 
 }
 /* подчеркивание ссылок */
-/* .hyi{
+/* .plashka{
   border:0;
-}
-.hyi:hover{
-  border-bottom: 20px;
-  border-color: red;
 } */
+.plashka:hover,
+.plashka:focus{
+  padding-bottom: 20px;
+  border-bottom:4px solid red;
+}
 .address-footer-prop {
   padding-left: 0px;
   padding-bottom: 4px;
 }
 .header-section {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
-rgba(46, 47, 66, 0.7)), url(images/people_office.png);
+rgba(46, 47, 66, 0.7)), url(../images/people_office.png);
 max-width: 100%S; 
 background-position: center;
   background-size: cover;
@@ -183,7 +182,6 @@ margin-bottom: 48px;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  /* padding-bottom: 60px; */
   text-transform: capitalize;
   margin-bottom: 72px;
   text-align: center;
@@ -208,8 +206,6 @@ margin-bottom: 48px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
-  /* width: calc((100% - 72px) / 4); */
-  /* width: 264px; */
 }
 
 .flex-ul {
@@ -440,14 +436,14 @@ justify-content: center;
 background-color:var(--brand-color-iris);
 fill:var(--text-color-white);
 fill-opacity: 1;
-
+cursor: pointer;
 }
 .icons-link:hover, 
 .icons-link:focus{
   background-color:var(--green);
 }
 
-  /*---modal---*/
+  /*----------------------modal--------------------*/
 
 .backdrop{
 position: fixed;
@@ -474,7 +470,9 @@ transition: transform 400ms linear;
   transition: transform 400ms linear;
 }
 .modal-close-btn{
-border: none;
+ display: flex;
+align-items: center;
+justify-content: center;
 background: transparent;
 width: 24px;
 height: 24px;
@@ -482,7 +480,20 @@ position: absolute;
 top: 24px;
 right:24px;
 cursor: pointer;
+fill:var(--brand-color-navy-blue);
+background-color: var(--brand-bottom-color);
+stroke-width: 1px;
+stroke: rgba(0, 0, 0, 0.10);
+fill-opacity: 1;
+border-radius:100%;
+border: 1px solid var(--lite-slate);
 }
+  .modal-close-btn:hover, 
+  .modal-close-btn:focus{
+  fill:var(--text-color-white);
+  background-color: var(--brand-color-iris);
+  border: none;
+  }
 .is-hidden{
   opacity: 0;
   visibility: hidden;
