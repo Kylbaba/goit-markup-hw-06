@@ -102,7 +102,6 @@ header .container {
   margin-right: 76px;
 }
 
-
 .navigation:last-child {
   margin-right: 0px;
 }
@@ -159,19 +158,22 @@ padding: 188px 0;
 background-repeat: no-repeat; 
 }
 /*---------------advanteges-icons--------------------------*/
-.advanteges-icon-box{
+/* .advanteges-icon-box{
   display:flex;
+  align-items: center;
   justify-content: center;
   gap:24px;
-}
+} */
 .advanteges-icons-link{
   display: flex;
   align-items: center;
   width: 264px;
-height: 112px;
+  height: 112px;
   justify-content: center;
   fill-opacity: 1;
   background: var(--brand-color-shad);
+  border-radius: 4px;
+  gap:24px;
   }
   /*---------------advanteges-icons---------------------------*/
 .visually-hidden {
