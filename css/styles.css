@@ -509,11 +509,10 @@ cursor: pointer;
 fill:var(--brand-color-navy-blue);
 background-color: var(--brand-bottom-color);
 stroke-width: 1px;
-/* stroke: rgba(0, 0, 0, 0.10); */
 border: 1px solid rgba(0, 0, 0, 0.1); 
 fill-opacity: 1;
 border-radius:50%;
-border: 1px solid var(--lite-slate);
+transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
   .modal-close-btn:hover, 
