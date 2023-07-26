@@ -106,18 +106,18 @@ header .container {
   margin-right: 0px;
 }
 .naw-lists-link {
-  color: var(--color,#404bbf);
+  color: var(--brand-color-navy-blue);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .naw-lists-link:hover,
 .naw-lists-link:focus {
-  color: var(--brand-color-ocean);
-
+  color: var(--color,#404bbf);
 }
 .naw-lists-link {
   position: relative;
@@ -134,7 +134,7 @@ header .container {
   width: 100%;
   height: 4px;
   border-radius:2px;
-  background-color: var(--brand-color-ocean, #404BBF);;
+  background-color: var(--color,#404bbf);
   }
 
 .address-footer-prop {
