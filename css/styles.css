@@ -116,15 +116,24 @@ header .container {
   color: var(--brand-color-ocean);
 
 }
-/* подчеркивание ссылок */
-/* .plashka{
-  border:0;
-} */
-.plashka:hover,
-.plashka:focus{
-  padding-bottom: 20px;
-  border-bottom:4px solid red;
-}
+.naw-lists-link {
+  position: relative;
+  }
+  .naw-lists-link.active::after,
+  .naw-lists-link:hover:after,
+  .naw-lists-link:focus:after 
+  {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  display: block;
+  width: 100%;
+  height: 4px;
+  border: radius 2px;
+  background-color: var(--brand-color-ocean, #404BBF);;
+  }
+
 .address-footer-prop {
   padding-left: 0px;
   padding-bottom: 4px;
