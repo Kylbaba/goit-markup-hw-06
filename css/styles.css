@@ -109,7 +109,7 @@ header .container {
   transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .naw-lists-link {
-  color: var(--brand-color-navy-blue);
+  color: var(--color,#404bbf);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -331,6 +331,7 @@ margin-bottom: 48px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
+  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts:hover,
 .contacts:focus {
