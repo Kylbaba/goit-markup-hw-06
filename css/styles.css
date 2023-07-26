@@ -498,6 +498,7 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
  display: flex;
 align-items: center;
 justify-content: center;
+padding: 0;
 background: transparent;
 width: 24px;
 height: 24px;
@@ -508,19 +509,24 @@ cursor: pointer;
 fill:var(--brand-color-navy-blue);
 background-color: var(--brand-bottom-color);
 stroke-width: 1px;
-stroke: rgba(0, 0, 0, 0.10);
+/* stroke: rgba(0, 0, 0, 0.10); */
+border: 1px solid rgba(0, 0, 0, 0.1); 
 fill-opacity: 1;
-border-radius:100%;
+border-radius:50%;
 border: 1px solid var(--lite-slate);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
   .modal-close-btn:hover, 
   .modal-close-btn:focus{
   fill:var(--text-color-white);
-  background-color: var(--brand-color-iris);
+  background-color: var(--color);
   border: none;
   }
 .is-hidden{
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+.modal-svg{
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
