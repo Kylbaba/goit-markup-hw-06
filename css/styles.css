@@ -102,14 +102,16 @@ header .container {
   margin-right: 76px;
 }
 
+
 .navigation:last-child {
   margin-right: 0px;
 }
+
 .header-item{
   transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .naw-lists-link {
-  color: var(--color,#404bbf);
+  color: var(--brand-color-navy-blue);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -117,7 +119,9 @@ header .container {
   padding: 24px 0;
   transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.active{
+  color: var(--color,#404bbf); 
+}
 .naw-lists-link:hover,
 .naw-lists-link:focus {
   color: var(--color,#404bbf);
