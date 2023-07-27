@@ -392,10 +392,12 @@ fill:var(--brand-color-ocean);
   fill-opacity: 1;
   border-radius: 4px;
   border: 1px solid var(--lite-slate);
+  color: var(--lite-slate);
  
   }
   .customers-icons-link:hover, 
   .customers-icons-link:focus{
+    color:var(--brand-color-ocean);
   fill:var(--brand-color-ocean);
   border: 1px solid var(--brand-color-ocean);
   }
