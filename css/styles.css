@@ -404,6 +404,9 @@ fill:var(--brand-color-ocean);
   /* .customers-svg{
   fill: currentColor;
   } */
+  .footer-sosial-item{
+  transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 /*----------------footer---------------------------------*/
 .style-footer {
   background-color: var(--brand-color-dark);
