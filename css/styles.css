@@ -377,7 +377,6 @@ margin-bottom: 48px;
  color: var(--lite-slate,#8E8F99);
  display: flex;
  gap: 24px;
- transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-icon-box:hover, 
 .customers-icon-box:focus{
@@ -394,6 +393,7 @@ fill:var(--brand-color-ocean);
   border-radius: 4px;
   border: 1px solid var(--lite-slate);
   color: var(--lite-slate);
+  transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
   }
   .customers-icons-link:hover, 
