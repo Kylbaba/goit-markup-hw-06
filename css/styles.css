@@ -375,6 +375,8 @@ margin-bottom: 48px;
 /*---------------customers---------------------------------*/
 .customers-icon-box{
  color: var(--lite-slate,#8E8F99);
+ display: flex;
+ gap: 24px;
 }
 .customers-icon-box:hover, 
 .customers-icon-box:focus{
@@ -390,13 +392,16 @@ fill:var(--brand-color-ocean);
   fill-opacity: 1;
   border-radius: 4px;
   border: 1px solid var(--lite-slate);
-  gap: 24px;
+ 
   }
   .customers-icons-link:hover, 
   .customers-icons-link:focus{
   fill:var(--brand-color-ocean);
   border: 1px solid var(--brand-color-ocean);
   }
+  /* .customers-svg{
+  fill: currentColor;
+  } */
 /*----------------footer---------------------------------*/
 .style-footer {
   background-color: var(--brand-color-dark);
