@@ -394,7 +394,6 @@ margin-bottom: 48px;
 }
 .portfolio-item{
   display: block;
-  overflow: hidden;
 }
 .portfolio-item:hover,
 .portfolio-item:focus{
@@ -402,12 +401,8 @@ margin-bottom: 48px;
 }
 .portfolio-img-box{
   position: relative;
- 
-}
-/* .overlay{
-
   overflow: hidden;
-} */
+}
 .portfolio-img-description{
   position: absolute;
   top: 0; 
