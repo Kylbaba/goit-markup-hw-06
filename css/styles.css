@@ -206,6 +206,7 @@ margin-bottom: 48px;
   justify-content: center;
   margin-bottom: 8px; 
   border-radius: 4px;
+  background: var(--brand-color-shad);
  
   /* height: 112px; */
 }
@@ -217,7 +218,6 @@ margin-bottom: 48px;
   height: 112px;
   justify-content: center;
   fill-opacity: 1;
-  background: var(--brand-color-shad);
   border-radius: 4px;
   gap:24px;
   }
