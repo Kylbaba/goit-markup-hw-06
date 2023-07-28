@@ -474,7 +474,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icons-link:hover, 
 .icons-link:focus{
-  background-color:var(--green);
+  background-color:var(--brand-color-ocean);
 }
 .svg-sosial-link{
   fill:var(--brand-color-shad);
