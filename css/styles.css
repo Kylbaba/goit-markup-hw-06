@@ -149,7 +149,7 @@ header .container {
 }
 
 .header-section {
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.png);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
 /* max-width: 1440px; */
 background-position: center;
 background-size: cover;
@@ -157,12 +157,6 @@ padding: 188px 0;
 background-repeat: no-repeat; 
 }
 /*---------------advanteges-icons--------------------------*/
-/* .advanteges-icon-box{
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  gap:24px;
-} */
 .advanteges-icons-link{
   display: flex;
   align-items: center;
@@ -475,6 +469,11 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .icons-link:hover, 
 .icons-link:focus{
   background-color:var(--brand-color-ocean);
+}
+
+.icon-footer-green:hover, 
+.icon-footer-green:focus{
+  background-color:var(--green);
 }
 .svg-sosial-link{
   fill:var(--brand-color-shad);
