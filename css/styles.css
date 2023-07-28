@@ -371,6 +371,11 @@ margin-bottom: 48px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  /* transition: 0.5s; */
+}
+.type-of-work:hover,
+.type-of-work:focus{
+transform: translateY(0%);
 }
 /*---------------customers---------------------------------*/
 .customers-icon-box{
