@@ -149,8 +149,7 @@ header .container {
 }
 
 .header-section {
-  background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-  url(../images/people_office.png);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
 /* max-width: 1440px; */
 background-position: center;
 background-size: cover;
@@ -458,13 +457,15 @@ margin-bottom:16px;
 }
 .icons-horizont-team{
   display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
   gap: 24px;
 }
-.team-icons-block{
+/* .team-icons-block{
   display:flex;
   justify-content: center;
   padding-bottom: 32px;
-}
+} */
 .icons-link{
 display: flex;
 align-items: center;
