@@ -150,7 +150,7 @@ header .container {
 
 .header-section {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
-/* max-width: 1440px; */
+max-width: 1440px;
 background-position: center;
 background-size: cover;
 padding: 188px 0;
@@ -214,13 +214,7 @@ margin-bottom: 48px;
   gap:24px;
 
 }
-/*---------------advanteges-icons--------------------------*/
-/* .advanteges-icons-link{
 
-  fill-opacity: 1;
-  border-radius: 4px;
-  gap:24px;
-  } */
   /*---------------advanteges-icons---------------------------*/
   .article-heading {
     color: var( --brand-color-navy-blue,#2E2F42);
@@ -418,11 +412,6 @@ margin-bottom: 48px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-/* .portfolio-img-description:hover,
-.portfolio-img-description:focus{
-transform:translateY(0%);
-} */
-
 /*---------------customers---------------------------------*/
 .customers-icon-box{
  color: var(--lite-slate,#8E8F99);
