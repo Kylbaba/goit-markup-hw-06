@@ -100,6 +100,7 @@ header .container {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+
 }
 
 .navigation:last-child {
@@ -149,11 +150,12 @@ header .container {
 }
 
 .header-section {
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
 max-width: 1440px;
+height: 600px;
 background-position: center;
 background-size: cover;
-padding: 188px 0;
+padding: 188px 472px 292px 472px ;
 margin: 0 auto;
 background-repeat: no-repeat; 
 }
@@ -219,9 +221,7 @@ margin-bottom: 48px;
   /*---------------advanteges-icons---------------------------*/
   .article-heading {
     color: var( --brand-color-navy-blue,#2E2F42);
-    /* margin-bottom: 8px; */
-    /* margin-top: 8px; */
-    text-align: left;
+    padding-bottom: 8px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -472,7 +472,6 @@ fill:var(--brand-color-ocean);
 }
 .logo-footer {
   font-family: 'Raleway';
-  display:flex;
   text-align: left;
   color: var(--brand-color-shad);
   font-weight: 800;
@@ -490,8 +489,8 @@ fill:var(--brand-color-ocean);
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.32px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 color:var(--text-color-white);
 margin-bottom:16px;
 }
@@ -503,6 +502,7 @@ margin-bottom:16px;
   display: flex;
   justify-content: center;
   gap: 24px;
+  padding-top: 8px;
 }
 .icons-link{
 display: flex;
@@ -512,8 +512,6 @@ height: 40px;
 border-radius:50%;
 justify-content: center;
 background-color:var(--brand-color-iris);
-fill-opacity: 1;
-cursor: pointer;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .icons-link:hover, 
