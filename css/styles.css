@@ -207,20 +207,20 @@ margin-bottom: 48px;
   margin-bottom: 8px; 
   border-radius: 4px;
   background: var(--brand-color-shad);
- 
-  /* height: 112px; */
-}
-/*---------------advanteges-icons--------------------------*/
-.advanteges-icons-link{
-  display: flex;
-  align-items: center;
   width: 264px;
   height: 112px;
-  justify-content: center;
   fill-opacity: 1;
   border-radius: 4px;
   gap:24px;
-  }
+
+}
+/*---------------advanteges-icons--------------------------*/
+/* .advanteges-icons-link{
+
+  fill-opacity: 1;
+  border-radius: 4px;
+  gap:24px;
+  } */
   /*---------------advanteges-icons---------------------------*/
   .article-heading {
     color: var( --brand-color-navy-blue,#2E2F42);
