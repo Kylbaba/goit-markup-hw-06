@@ -381,7 +381,7 @@ transform: translateY(0%);
 }
 .portfolio-img-box{
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 .portfolio-img-description{
   position: absolute;
