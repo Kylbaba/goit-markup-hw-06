@@ -156,19 +156,6 @@ background-size: cover;
 padding: 188px 0;
 background-repeat: no-repeat; 
 }
-/*---------------advanteges-icons--------------------------*/
-.advanteges-icons-link{
-  display: flex;
-  align-items: center;
-  width: 264px;
-  height: 112px;
-  justify-content: center;
-  fill-opacity: 1;
-  background: var(--brand-color-shad);
-  border-radius: 4px;
-  gap:24px;
-  }
-  /*---------------advanteges-icons---------------------------*/
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -205,24 +192,6 @@ margin-bottom: 48px;
 .our-team {
   background-color: var(--brand-color-shad);
 }
-.article-heading {
-  color: var( --brand-color-navy-blue,#2E2F42);
-  margin-bottom: 8px;
-  margin-top: 8px;
-  text-align: left;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-transform: none;
-
-}
-.main-text-block {
-  text-align: left;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--slate);
-}
 
 .flex-ul {
   display: flex;
@@ -231,7 +200,47 @@ margin-bottom: 48px;
 .wedo-items{
   width: calc((100% - 48px) / 3);
 }
-
+.advanteges-icon-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px; 
+  border-radius: 4px;
+ 
+  /* height: 112px; */
+}
+/*---------------advanteges-icons--------------------------*/
+.advanteges-icons-link{
+  display: flex;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  justify-content: center;
+  fill-opacity: 1;
+  background: var(--brand-color-shad);
+  border-radius: 4px;
+  gap:24px;
+  }
+  /*---------------advanteges-icons---------------------------*/
+  .article-heading {
+    color: var( --brand-color-navy-blue,#2E2F42);
+    /* margin-bottom: 8px; */
+    /* margin-top: 8px; */
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: none;
+  
+  }
+  .main-text-block {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+  }
+  
 .main-btn {
   display: block;
   min-width: 169px;
@@ -405,7 +414,7 @@ margin-bottom: 48px;
   background-color:var(--brand-color-blue);
   height: 100%;
   width: 100%;
-  transform:translateY(90%);
+  transform:translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
