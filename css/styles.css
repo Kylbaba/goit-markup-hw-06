@@ -91,7 +91,6 @@ header .container {
   gap: 40px;
 }
 .head-logo {
-  display: flex;
   font-family:'Raleway';
   color: var(--text-color-black);
   font-weight: 800;
@@ -100,7 +99,6 @@ header .container {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
-
 }
 
 .navigation:last-child {
@@ -155,7 +153,7 @@ max-width: 1440px;
 height: 600px;
 background-position: center;
 background-size: cover;
-padding: 188px 472px 292px 472px ;
+padding: 188px 472px 0 472px ;
 margin: 0 auto;
 background-repeat: no-repeat; 
 }
@@ -191,6 +189,10 @@ margin-bottom: 48px;
   text-transform: capitalize;
   margin-bottom: 72px;
   text-align: center;
+}
+.solution-container{
+  width: 496px;
+  height: 120px;
 }
 .our-team {
   background-color: var(--brand-color-shad);
