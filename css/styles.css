@@ -221,7 +221,7 @@ margin-bottom: 48px;
   /*---------------advanteges-icons---------------------------*/
   .article-heading {
     color: var( --brand-color-navy-blue,#2E2F42);
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -461,6 +461,7 @@ fill:var(--brand-color-ocean);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 17.5px;
 }
 .indent{
   margin-right: 120px;
@@ -477,7 +478,7 @@ fill:var(--brand-color-ocean);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.167;
-  margin-bottom: 16px;
+
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
