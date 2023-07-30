@@ -487,11 +487,8 @@
     </a>
       </li>
             </ul>
-          </div>
-
-
-
-          <div>
+          </div>          
+            <div>
           <p class="sosial-media-footer-hed sosial-media-footer-last">Subscribe</p>
           <form class="footer-form">            
               <input class="email-input" type="email"  type="color" name="user_email" placeholder="E-mail" />            
@@ -502,17 +499,80 @@
             </button>
           </form>
         </div>
-
-
-
-        </div>
+      </div>
     </footer>
-    <div class="backdrop  is-hidden" data-modal>
+    <div class="backdrop  " data-modal> /*------------is hidden в класс-----------*/
+
+
+
+
 <div class="modal">
+  <p class="modal-hed">Leave your contacts and we will call you back</p>
   <button type="button" class="modal-close-btn" data-modal-close>
     <svg class="modalsvg" width="8" height="8">
     <use href="./images/icons.svg#icon-close-black"></use></svg></button>
+    <form class="order-form">
+      <label>
+        Name
+        <input type="text" name="username" required/>
+      </label>
+      <label>
+        Phone
+        <input type="tel" name="contact_tel"required />
+      </label>
+      <label>
+        Email
+        <input type="email" name="email" required/>
+      </label>
+      <textarea name="Comment" rows="5" placeholder="Enter your message here...">
+
+      </textarea>
+      <button class="main-btn btn" type="submit">Send</button>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
     <script src="js/modal.js"></script>
   </body>
