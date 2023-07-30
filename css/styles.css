@@ -605,6 +605,11 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 margin-bottom: 16px;
 }
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
 .modal-close-btn{
  display: flex;
 align-items: center;
