@@ -499,6 +499,42 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color:var(--text-color-white);
 margin-bottom:16px;
+margin-right: 192px;
+}
+.sosial-media-footer-last{
+  margin-right: 1px;
+}
+.footer-form{
+  display: flex;
+  gap:24px;
+
+}
+.subscribe-btn{
+display: block;
+justify-content: center;
+border-radius: 4px;
+min-width: 165px;
+font-weight: 500;
+height: 40px;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(--text-color-white);
+background-color: var(--brand-color-iris);
+margin:0 auto;
+padding: 8px 24px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.email-input{
+  width: 264px;
+height: 40px;
+border-radius: 4px;
+border: 1px solid var(--text-color-white);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+background-color: transparent;
+padding: 8px 16px;
+border-color:var(--text-color-white);
+color:var(--text-color-white);
 }
 .icons-horizont{
   display: flex;
