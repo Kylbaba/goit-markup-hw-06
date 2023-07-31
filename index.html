@@ -512,25 +512,38 @@
     <svg class="modalsvg" width="8" height="8">
     <use href="./images/icons.svg#icon-close-black"></use></svg></button>
     <form class="order-form">
-      <label>
+
+      <label for="user-name"></label>
         Name
-        <input class="modal-input" type="text" name="username" required/>
+        <input class="modal-input"
+         type="text" name="username"
+          required 
+          autofocus
+          id="user-name"/>
+     
+      <label for="user-phone">
+        Phone 
       </label>
-      <label>
-        Phone
-        <input class="modal-input" type="tel" name="contact_tel"required />
+        <input class="modal-input" type="tel" name="contact_tel"
+        required id="user-phone"/>
+     
+      <label for="user-email">
+        Email 
       </label>
-      <label>
-        Email
-        <input class="modal-input" type="email" name="email" required/>
-      </label>
-      <label>
+        <input class="modal-input" type="email" 
+        name="email"required
+        id="user-email"/>
+      
+      <label for="user-comment">
         Comment
-      <textarea class="textarea-style" name="comment" rows="5" placeholder="">      
+      </label>
+      <textarea class="textarea-style" name="comment"
+       rows="5" placeholder="Text input"
+       id="user-comment">      
       </textarea>
-    </label>
-    <p class="ooo">I accept the terms and conditions of the Privacy Policy</p>
-      <button class="main-btn btn" type="submit">Send</button>
+   
+    <p class="">I accept the terms and conditions of the Privacy Policy</p>
+      <button class="main-btn btn" type="submit" disabled>Send</button>
     </form>
 
 

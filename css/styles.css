@@ -605,12 +605,12 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 margin-bottom: 16px;
 }
-label {
+.label {
 width: 360px;
 height: 58px;
-display: flex;
-flex-direction: column;
-margin-bottom: 8px;
+/* display: flex;
+flex-direction: column; */
+/* padding-bottom: 8px; */
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
@@ -622,20 +622,32 @@ width: 360px;
 height: 58px;
 border-radius: 4px;
 background-color: transparent;
-border: 1px solid var(--navy-blue-modal, rgba(46, 47, 66, 0.40));
-/* margin-bottom: 26px; */
+border: 1px solid var(--navy-blue-modal);
+padding: 0 15px;
+outline: transparent;
+margin-bottom: 20px;
+}
+.modal-input:hover,
+.modal-input:focus{
+/* .modal-input:focus-within */
+  border: 1px solid var(--brand-color-iris);
 }
 .textarea-style{
 width: 360px;
 height: 120px;
-flex-shrink: 0;
 border-radius: 4px;
 border: 1px solid var(--navy-blue-modal, rgba(46, 47, 66, 0.40));
 margin-bottom: 16px;
+padding: 8px 16px;
 }
-.ooo{
-  margin:80px 60px;
-}
+/* .textarea-style::placeholder-shown {
+  color: blue;
+} */
+/* .textarea-style:hover,
+.textarea-stylet:focus{
+  border: 1px solid var(--brand-color-iris);
+} */
+
 .modal-close-btn{
  display: flex;
 align-items: center;
