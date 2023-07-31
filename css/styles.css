@@ -706,4 +706,32 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   height: 18px;
 }
+.label-license{
+  margin: 0;
+}
+.license{
+  color: var(--brand-color-iris);
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.48px;
+text-decoration-line: underline;
+}
+.user-check{
+display: inline-block;
+width: 16px;
+height: 16px;
+border-radius: 4px;
+border:2px solid var(--brand-color-navy-blue);
+opacity:0.4;
+vertical-align: bottom;
+margin-right: 8px;
 
+}
+.btn-distans{
+  margin-bottom: 24px;
+  display: flex;
+  /* align-items: center; */
+  gap:8px;
+}
