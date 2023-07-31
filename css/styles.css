@@ -619,7 +619,7 @@ letter-spacing:0.04em;
 }
 .modal-input{
 width: 360px;
-height: 58px;
+height: 40px;
 border-radius: 4px;
 background-color: transparent;
 border: 1px solid var(--navy-blue-modal);
