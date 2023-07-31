@@ -501,7 +501,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop  " data-modal> /*------------is hidden в класс-----------*/
+    <div class="backdrop  " data-modal> /*------------is-hidden в класс-----------*/
 <div class="modal">
   <p class="modal-hed">Leave your contacts and we will call you back</p>
   <button type="button" class="modal-close-btn" data-modal-close>
@@ -562,14 +562,17 @@
 
 
 <div class="btn-distans">
-  <input type="checkbox" name="user-check" id="user-check" value="one">
-  <label class="input-label label-license" 
-   for="user-check">
-   <span class="user-check"></span>
-   I accept the terms and conditions of the <a href="" class="license">Privacy Policy</a></label>
+  <input type="checkbox" name="user-check" id="user-check" value="one" 
+  class="modal-check">
+  <label class="label-license" for="user-check">
+<span class="check">
+    <svg class="checksvg" width="8" height="6">
+       <use href="./images/icons.svg#icon-check"></use>
+    </svg>
+</span>I accept the terms and conditions of the <a href="" class="license"> Privacy Policy</a>
+ </label>
 </div>
-   
-      <button class="main-btn btn" type="submit" disabled>Send</button>
+ <button class="main-btn btn" type="submit" disabled>Send</button>
     </form>
 </div>
     </div>
