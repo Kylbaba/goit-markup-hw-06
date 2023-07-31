@@ -448,12 +448,6 @@ fill:var(--brand-color-ocean);
   fill:var(--brand-color-ocean);
   border: 1px solid var(--brand-color-ocean);
   }
-  /* .customers-svg{
-  fill: currentColor;
-  } */
-  /* .footer-sosial-item{
-  transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
 /*----------------footer---------------------------------*/
 .style-footer {
   background-color: var(--brand-color-dark);
@@ -501,13 +495,20 @@ color:var(--text-color-white);
 margin-bottom:16px;
 margin-right: 192px;
 }
+.sendsvg{
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 24px;
+height: 24px;
+}
 .footer-form{
   display: flex;
   gap:24px;
+fill:var(--text-color-white);
 
 }
 .subscribe-btn{
-display: block;
+  display: flex;
+  gap: 16px;
 border-radius: 4px;
 min-width: 165px;
 font-weight: 500;
@@ -682,5 +683,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
   pointer-events: none;
 }
 .modalsvg{
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
