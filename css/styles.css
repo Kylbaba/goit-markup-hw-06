@@ -593,8 +593,8 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 padding: 72px 24px;
 }
 .backdrop.is-hidden .modal{
-  transform: translate(-50%, -50%) scaleY(3);
-  transition: transform 400ms linear;
+transform: translate(-50%, -50%) scaleY(3);
+ transition: transform 400ms linear;
 }
 .modal-hed{
 color: var(--brand-color-navy-blue);
@@ -616,8 +616,7 @@ letter-spacing:0.04em;
 color:var(--lite-slate);
 margin-bottom: 4px;
 }
-.modal-field{
- 
+.modal-field{ 
   margin-bottom: 20px; 
 }
 .modal-input{
@@ -633,10 +632,12 @@ outline: transparent;
 .modal-input:hover,
 .modal-input:focus{
   border: 1px solid var(--brand-color-iris);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-input:hover + .modalsvg,
 .modal-input:focus +.modalsvg{
   fill: var(--brand-color-iris);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .textarea-style{
 width: 360px;
@@ -645,6 +646,7 @@ border-radius: 4px;
 border: 1px solid var(--lite-slate);
 margin-bottom: 16px;
 padding: 8px 16px;
+resize: none;
 }
 
 .modal-close-btn{
@@ -668,11 +670,11 @@ border-radius:50%;
 transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-  .modal-close-btn:hover, 
-  .modal-close-btn:focus{
-  fill:var(--text-color-white);
-  background-color: var(--color);
-  border: none;
+.modal-close-btn:hover, 
+.modal-close-btn:focus{
+fill:var(--text-color-white);
+background-color: var(--color);
+border: none;
   }
 .is-hidden{
   opacity: 0;
@@ -680,7 +682,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
   pointer-events: none;
 }
 .modal-close-svg{
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-wrap{
   position: relative;
