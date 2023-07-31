@@ -644,11 +644,21 @@ width: 360px;
 height: 120px;
 border-radius: 4px;
 border: 1px solid var(--lite-slate);
-margin-bottom: 16px;
+/* margin-bottom: 16px; */
 padding: 8px 16px;
 resize: none;
 }
+.textarea-style::placeholder{
+color: var(--lite-slate);
+font-size: 12px;
+letter-spacing: 0.02em;
+}
 
+/* .textarea-style:hover,
+.textarea-style:focus{
+  border: 1px solid var(--brand-color-iris);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
 .modal-close-btn{
  display: flex;
 align-items: center;
@@ -692,6 +702,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
+  fill: var(--brand-color-navy-blue);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   height: 18px;
 }
