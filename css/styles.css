@@ -495,10 +495,11 @@ color:var(--text-color-white);
 margin-bottom:16px;
 margin-right: 192px;
 }
-.sendsvg{
+.sendlsvg{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 24px;
 height: 24px;
+margin-left: 16px; 
 }
 .footer-form{
   display: flex;
@@ -508,18 +509,20 @@ fill:var(--text-color-white);
 }
 .subscribe-btn{
 display: flex;
-gap: 16px;
+justify-content: center;
+align-items: center;
+/* gap: 16px; */
 border-radius: 4px;
 min-width: 165px;
 font-weight: 500;
 height: 40px;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em;
+letter-spacing: 0.04em;
 color:var(--text-color-white);
 background-color: var(--brand-color-iris);
 margin:0 auto;
-padding: 8px 24px;
+/* padding: 8px 24px; */
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
