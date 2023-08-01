@@ -748,7 +748,7 @@ padding-left: 4px;
   display: none;
 }
 .check{
-display: flex;
+  display: inline-flex; 
 align-items: center;
 justify-content: center;
 border: 1px solid rgba(46, 47, 66, 0.4); 
@@ -770,4 +770,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 background-color: var(--brand-color-iris);
 fill:var(--text-color-footer);
 border:0;
+}
+.modal-btn{
+  font-weight: 500;
 }
