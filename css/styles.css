@@ -743,9 +743,6 @@ line-height: 16px;
 letter-spacing: 0.48px;
 text-decoration-line: underline;
 }
-.modal-check{
-  display: none;
-}
 .check{
 display: inline-flex; 
 align-items: center;
