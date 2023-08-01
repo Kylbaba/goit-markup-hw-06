@@ -759,7 +759,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
   margin-bottom: 24px;
 }
 .checksvg{
-
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-check:checked + .label-license span{
@@ -767,6 +766,6 @@ background-color: var(--color);
 fill:var(--brand-color-shad);
 border:0;
 }
-.modal-btn{
+.{
   font-weight: 500;
 }
