@@ -650,6 +650,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .textarea-style{
+ 
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -669,7 +670,9 @@ color: var(--lite-slate);
 font-size: 12px;
 letter-spacing: 0.02em;
 }
-
+.modal-field-texteria{
+  margin-bottom: 16px;
+}
 .textarea-style:hover,
 .textarea-style:focus{
   border-color: #4D5AE5;
