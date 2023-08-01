@@ -766,6 +766,6 @@ background-color: var(--color);
 fill:var(--brand-color-shad);
 border:0;
 }
-.{
+.modal-btn{
   font-weight: 500;
 }
