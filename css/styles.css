@@ -493,7 +493,9 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color:var(--text-color-white);
 margin-bottom:16px;
-margin-right: 192px;
+}
+.sosial-media-footer-distans{
+  margin-right: 80px;
 }
 .sendlsvg{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -503,7 +505,6 @@ margin-left: 16px;
 }
 .footer-form{
   display: flex;
-  gap:24px;
 fill:var(--text-color-white);
 
 }
@@ -511,7 +512,7 @@ fill:var(--text-color-white);
 display: flex;
 justify-content: center;
 align-items: center;
-/* gap: 16px; */
+margin-left: 24px;
 border-radius: 4px;
 min-width: 165px;
 font-weight: 500;
@@ -521,8 +522,6 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color:var(--text-color-white);
 background-color: var(--brand-color-iris);
-margin:0 auto;
-/* padding: 8px 24px; */
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
