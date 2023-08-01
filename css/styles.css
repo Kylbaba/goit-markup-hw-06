@@ -623,7 +623,7 @@ color:var(--lite-slate);
 margin-bottom: 4px;
 }
 .modal-field{ 
-  margin-bottom: 8px; 
+  margin-bottom: 16px; 
 }
 
 .modal-input{
@@ -711,7 +711,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-wrap{
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modalsvg{
   position: absolute;
