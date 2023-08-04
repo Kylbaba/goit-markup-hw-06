@@ -154,11 +154,11 @@ header .container {
 }
 
 .header-section {
-  display: flex;
+display: flex;
 align-items: center;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
-max-width: 1440px;
-height: 600px;
+/* max-width: 1440px;
+height: 600px; */
 background-position: center;
 background-size: cover;
 margin: 0 auto;
@@ -288,10 +288,10 @@ width: 100%;
   color: var(--text-color-white, white);
 }
 .section {
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
-  padding-top: 96px;
-  padding-bottom: 96px;
+  /* padding-top: 120px; */
+  padding-bottom: 120px;
+  /* padding-top: 96px;
+  padding-bottom: 96px; */
   /* max-width:1440px; */
 }
 .portfolio-section {
@@ -459,7 +459,7 @@ fill:var(--brand-color-ocean);
 .customers-icons-link{
   display: flex;
   align-items: center;
-  width: 190px;
+  /* width: 190px; */
   /* width: 168px; */
   height: 88px;
   justify-content: center;
@@ -800,111 +800,4 @@ border:0;
 }
 .modal-btn{
   font-weight: 500;
-}
-@media screen and (min-width: 320px) {
-  .container {
-    max-width: 428px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-  .flex-ul {
-    flex-wrap: wrap;
-    gap: 72px;
-  }
-  .section {
-    padding-top: 96px;
-    padding-bottom: 96px;
-  }
-  .main-text-block {
-    font-weight: 500;
-}
-.flex-ul-team{
-  gap:72px 24px;
-}
-.customers-icons-link{
-  width: 190px;
-}
-/* .customers-icon-box {
-  width: calc((100% - 24px) / 2);
-} */
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-     padding: 0 108px;
-    }
-  .wedo-items{
-    width: calc((100% - 24px)/ 2);
-  }
-  .flex-ul {
-    display: flex;
-    gap:24px;
-    /* flex-wrap: wrap; */
-  }
-  .main-text-block {
-    font-weight: 500;
-}
-
-.flex-ul-team{
-  gap:64px 24px;
-}
-.customers-icons-link{
-  width: 168px;
-}
-.advanteges-container{
-  padding: 0 16px;
-}
-/* .customers-icon-box {
-  width: calc((100% - 24px) / 3);
-} */
-}
-
-
-
-@media screen and (min-width: 1158px) {
-  .container {
-    max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .wedo-items{
-    width: calc((100% - 48px) / 3);
-  }
-  .flex-ul {
-    gap: 24px;
-    flex-wrap: nowrap;
-   }
-   .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    max-width:1440px;
-    margin: 0 auto;
-  }
-  .advanteges-icon-box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 8px; 
-    border-radius: 4px;
-    background: var(--brand-color-shad);
-    width: 264px;
-    height: 112px;
-    fill-opacity: 1;
-    border-radius: 4px;
-    gap:24px;    
-  }
-  .article-heading {
-    font-size: 20px;
-}
-.section-whatwedo {
-  display:block;
-}
-.flex-ul-team{
-  gap:24px;
-}
-
-.customers-icons-link{
-  width: 168px;
-}
 }

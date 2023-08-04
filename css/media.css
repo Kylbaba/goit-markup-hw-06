@@ -1,0 +1,131 @@
+@media screen and (min-width: 320px) {
+    .container {
+      max-width: 428px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    .flex-ul {
+      flex-wrap: wrap;
+      gap: 72px;
+    }
+    .section {
+      padding-top: 96px;
+      padding-bottom: 96px;
+    }
+    .main-text-block {
+      font-weight: 500;
+  }
+  .flex-ul-team{
+    gap:72px 24px;
+  }
+  .footer-sosial-item {
+  width: calc((100% - 16px) / 2);
+}
+  /* .customers-icons-link{
+    width: calc((100% - 16px) / 2);
+    width: 190px;
+  } */
+  .main-heding {
+    font-size: 36px;
+}
+.header-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobil.jpg);
+    max-width: 428px;
+    height: 432px;
+}
+  }
+  
+  @media screen and (min-width: 768px) {
+    .container {
+      max-width: 768px;
+       padding: 0 108px;
+      }
+    .wedo-items{
+      width: calc((100% - 24px)/ 2);
+    }
+    .flex-ul {
+      display: flex;
+      gap:24px;
+    }
+    .main-text-block {
+      font-weight: 500;
+  }
+  .article-heading {
+    text-align: left;
+}
+  .flex-ul-team{
+    gap:64px 24px;
+  }
+  .footer-sosial-item {
+    width: calc((100% - 48px) / 3);
+  }
+  .advanteges-container{
+    padding: 0 16px;
+  }
+  .header-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/planshet.jpg); 
+    max-width: 768px;
+    height: 436px;
+    width: auto;
+}
+
+  }
+  
+  
+  
+  @media screen and (min-width: 1158px) {
+    .container {
+      max-width: 1158px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .wedo-items{
+      width: calc((100% - 48px) / 3);
+    }
+    .flex-ul {
+      gap: 24px;
+      flex-wrap: nowrap;
+     }
+     .section {
+      padding-bottom: 120px;
+      /* max-width:1440px;
+      margin: 0 auto; */
+    }
+    .advanteges-icon-box{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 8px; 
+      border-radius: 4px;
+      background: var(--brand-color-shad);
+      width: 264px;
+      height: 112px;
+      fill-opacity: 1;
+      border-radius: 4px;
+      gap:24px;    
+    }
+    .article-heading {
+      font-size: 20px;
+      text-align: left;
+  }
+  .section-whatwedo {
+    padding-top: 0;
+    display:block;
+  }
+  .flex-ul-team{
+    gap:24px;
+  }
+  .main-text-block {
+    font-weight: normal;
+}
+.footer-sosial-item {
+    width: calc((100% - 120px) / 6);
+  }
+
+  .header-section {
+    max-width: 1440px;
+    height: 600px;
+    width: auto;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
+}
+  }
