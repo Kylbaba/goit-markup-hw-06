@@ -290,6 +290,7 @@ width: 100%;
   padding: 96px 0 120px 0;
 }
 .section-whatwedo {
+  display: none;
   padding-top: 0px;
 }
 .portfolio-botom-section {
@@ -803,6 +804,7 @@ border:0;
   .main-text-block {
     font-weight: 500;
 }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -819,6 +821,8 @@ border:0;
   .main-text-block {
     font-weight: 500;
 }
+
+
 }
 
 @media screen and (min-width: 1158px) {
@@ -855,5 +859,8 @@ border:0;
   }
   .article-heading {
     font-size: 20px;
+}
+.section-whatwedo {
+  display:block;
 }
 }
