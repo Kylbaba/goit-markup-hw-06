@@ -68,6 +68,9 @@
     height: 436px;
     width: auto;
 }
+.main-heding {
+    font-size: 56px;
+}
 
   }
   
@@ -127,5 +130,8 @@
     height: 600px;
     width: auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
+}
+.main-heding {
+    font-size: 56px;
 }
   }
