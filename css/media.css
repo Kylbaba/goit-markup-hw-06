@@ -18,13 +18,7 @@
   .flex-ul-team{
     gap:72px 24px;
   }
-  .footer-sosial-item {
-  width: calc((100% - 16px) / 2);
-}
-  /* .customers-icons-link{
-    width: calc((100% - 16px) / 2);
-    width: 190px;
-  } */
+
   .main-heding {
     font-size: 36px;
 }
@@ -33,8 +27,43 @@
     max-width: 428px;
     height: 432px;
 }
+.style-footer {
+    padding: 97.5px 0;
+}
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
   }
-  
+  .custom-sosial-item {
+    width: calc((100% - 16px) / 2);
+}
+  .email-input{
+  margin-bottom: 16px;
+  }
+
+  .sosial-media-footer-hed {
+    text-align: center;
+  }
+  .foot-text {
+    margin: 0 auto;}
+
+    .logo-footer {
+      text-align: center;
+    }
+
+    .icons-horizont {
+      justify-content: center;
+  }
+  .footer-form {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+ }
+
   @media screen and (min-width: 768px) {
     .container {
       max-width: 768px;
@@ -56,9 +85,7 @@
   .flex-ul-team{
     gap:64px 24px;
   }
-  .footer-sosial-item {
-    width: calc((100% - 48px) / 3);
-  }
+ 
   .advanteges-container{
     padding: 0 16px;
   }
@@ -71,7 +98,24 @@
 .main-heding {
     font-size: 56px;
 }
+.custom-sosial-item {
+  width: calc((100% - 48px) / 3);
+}
+.logo-footer {
+  text-align: left;
+}
+.sosial-media-footer-hed {
+  text-align:left;
+}
+.icons-horizont {
+  justify-content:left;
+}
+.foot-text {
+  margin: 0;
+}
+.container-footer {
 
+}
   }
   
   
@@ -91,8 +135,6 @@
      }
      .section {
       padding-bottom: 120px;
-      /* max-width:1440px;
-      margin: 0 auto; */
     }
     .advanteges-icon-box{
       display: flex;
@@ -121,9 +163,6 @@
   .main-text-block {
     font-weight: normal;
 }
-.footer-sosial-item {
-    width: calc((100% - 120px) / 6);
-  }
 
   .header-section {
     max-width: 1440px;
@@ -134,4 +173,28 @@
 .main-heding {
     font-size: 56px;
 }
+.custom-sosial-item {
+  width: calc((100% - 120px) / 6);
+}
+.footer-form{
+ display: flex;
+ gap: 24px; 
+}
+ .indent {
+    margin-right: 120px;
+    }
+.sosial-media-footer-distans {
+        margin-right: 80px;
+    }
+
+    .logo-footer {
+      text-align: left;
   }
+  .footer-form{
+    display: flex;
+    gap: 24px;
+  }
+  .sosial-media-footer-hed {
+    text-align:left;
+  }
+}
