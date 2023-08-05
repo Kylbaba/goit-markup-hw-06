@@ -113,8 +113,9 @@
 .foot-text {
   margin: 0;
 }
-.container-footer {
-
+.container-footer{
+  flex-flow: row;
+  flex-wrap: wrap;
 }
   }
   
@@ -197,4 +198,12 @@
   .sosial-media-footer-hed {
     text-align:left;
   }
+.container-footer{
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap:0;
+}
+.footer-form {
+  flex-wrap: nowrap;
+}
 }

@@ -496,13 +496,16 @@ fill:var(--brand-color-ocean);
 .indent{
   /* margin-right: 120px; */
 }
+.sosial-media-footer-distans{
+  /* margin-right: 80px; */
+}
 .container-footer {
   display: flex;
-  flex-direction: column;
-    /* max-width: 428px; */
-    /* padding-left: 16px; */
-    /* padding-right: 16px; */
-  /* align-items: baseline;
+  /* flex-direction: column; */
+    /* max-width: 428px;
+    padding-left: 16px;
+    padding-right: 16px;
+  align-items: baseline;
   text-align: left; */
 }
 .logo-footer {
@@ -530,9 +533,7 @@ letter-spacing: 0.02em;
 color:var(--text-color-white);
 margin-bottom:16px;
 }
-.sosial-media-footer-distans{
-  /* margin-right: 80px; */
-}
+
 .sendlsvg{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 24px;
