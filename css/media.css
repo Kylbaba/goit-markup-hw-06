@@ -69,12 +69,18 @@
     justify-content: center;
 
 }
+.header-contacts{
+  display: none;
+ }
+ .navigation{
+  display: none;
+ }
  }
 
   @media screen and (min-width: 768px) {
     .container {
       max-width: 768px;
-       padding: 0 108px;
+      padding: 0 15px;
       }
     .wedo-items{
       width: calc((100% - 24px)/ 2);
@@ -130,7 +136,22 @@
 .container-footer{
   flex-flow: row;
   flex-wrap: wrap;
+  padding: 0 108px;;
 }
+.header-contacts{
+  display: flex;
+  
+ }
+ .header-contacts-new {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-left: 121px;
+}
+
+ .navigation{
+  display: flex;
+ }
   }
   
   
@@ -227,4 +248,15 @@
 .footer-form {
   flex-wrap: nowrap;
 }
+.header-contacts{
+  display: flex;
+ }
+ .navigation{
+  display: flex;
+ }
+ .header-contacts-new {
+  flex-direction: row;
+  gap: 40px;}
+
+
 }
