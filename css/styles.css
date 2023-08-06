@@ -65,7 +65,6 @@ img {
   margin-right: auto;
 }
 header .container {
-  display: flex;
   align-items: center;
 }
 .header-pad {
