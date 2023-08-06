@@ -897,6 +897,9 @@ color: var(--brand-color-ocean);
 @media screen and (min-width: 428px){
   .mob-contacts-tl{
     font-size: 36px;}
+    .icons-mob-menu{
+      gap: 56px;
+    }
 }
 .mob-contacts-mail{
   font-size: 20px;
