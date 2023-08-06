@@ -243,7 +243,6 @@ width: 100%;
   .article-heading {
     color: var( --brand-color-navy-blue,#2E2F42);
     margin-bottom: 8px;
-    /* font-size: 20px; */
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: none;
@@ -807,4 +806,118 @@ border:0;
 }
 .modal-btn{
   font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mobil-menu{
+  
+  /* max-width: 428px; */
+   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  padding: 24px 24px 40px 40px;
+  background: var(--text-color-white);
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+ overflow: auto;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+.mobil-menu:hover,
+.mobil-menu:focus {
+  color: var(--color,#404bbf);
+}
+.mobil-close-btn{
+
+}
+.mob-menu{
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.mob-menu-lists-link{
+display:flex;
+flex-direction: column;
+gap: 40px;
+}
+.mob-link{
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--brand-color-navy-blue);
+}
+.mob-link:focus,
+.mob-link:hover{
+color: var(--brand-color-ocean);
+}
+.active{
+  color: var(--color,#404bbf); 
+}
+.mob-contacts{
+  margin: 0 auto;
+}
+.mob-contacts-new{
+  /* display:flex; */
+  /* flex-direction: column; */
+  /* gap: 40px; */
+  margin: 0 auto;
+}
+
+.mob-contacts-tl{
+  display: block;
+  margin-top: 40px;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--brand-color-iris);
+  padding-bottom: 40px;
+}
+@media screen and (min-width: 428px){
+  .mob-contacts-tl{
+    font-size: 36px;}
+}
+.mob-contacts-mail{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.icons-mob-menu{
+display: flex;
+align-items: center;
+justify-content: center;
+/* width: calc((100% - 168px)/ 4); */
+gap:56px;
+margin-top: 48px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.mob-menu-sosial-item{
+  /* width: calc((100% - 168px)/ 4); */
 }

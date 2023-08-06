@@ -86,11 +86,13 @@
 }
  
  .hamburger-menu{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 32px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 32px;
 height: 22px;
+background: transparent;
+padding: 0;
  }
  }
 
