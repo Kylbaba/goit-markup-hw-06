@@ -912,7 +912,8 @@ display: flex;
 align-items: center;
 justify-content: center;
 /* width: calc((100% - 168px)/ 4); */
-gap:56px;
+/* gap:56px; */
+gap: 36px;
 margin-top: 48px;
 margin-left: auto;
 margin-right: auto;
