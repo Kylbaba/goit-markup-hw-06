@@ -840,7 +840,7 @@ border:0;
  justify-content: space-between;
  transform: translateX(100%);
 }
-.mobil-menu .menu-open{
+.mobil-menu .is-open{
   transform: translateX(0);
 }
 .mobil-menu:hover,
