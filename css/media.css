@@ -97,6 +97,9 @@ padding: 0;
  .lists-portfolio {
   gap: 48px 0;
  }
+ .modal{
+  width: 392px;
+}
 }
 
 @media screen and (min-width: 768px) {
@@ -195,8 +198,10 @@ padding: 0;
    .portfolio-img{
     width: 356px;
    }
+   .modal{
+    width: 408px;
  }
-  
+}
   @media screen and (min-width: 1158px) {
     header .container {
       display: flex;}
@@ -313,7 +318,10 @@ padding: 0;
    .portfolio-botom-section {
     justify-content: center;
   }
-    .lists-portfolio {
+ .lists-portfolio {
       gap: 48px 24px;
-     }
+ }
+ .modal{
+  width: 408px;
 }
+  }
