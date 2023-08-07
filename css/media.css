@@ -18,10 +18,11 @@
   .flex-ul-team{
     gap:72px 24px;
   }
-
-  .main-heding {
-    font-size: 36px;
+.main-heding {
+  font-size: 30px;
+  text-align: center;
 }
+
 .header-section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobil.jpg);
     max-width: 428px;
@@ -45,24 +46,24 @@
   .custom-sosial-item {
     width: calc((100% - 16px) / 2);
 }
-  .email-input{
+  /* .email-input{
   margin-bottom: 16px;
-  }
+  } */
 
-  .sosial-media-footer-hed {
+.sosial-media-footer-hed {
     text-align: center;
   }
-  .foot-text {
+ .foot-text {
     margin: 0 auto;}
 
-    .logo-footer {
+ .logo-footer {
       text-align: center;
     }
 
-    .icons-horizont {
+.icons-horizont {
       justify-content: center;
   }
-  .footer-form {
+.footer-form {
     display: flex;
     gap: 16px;
     flex-wrap: wrap;
@@ -99,27 +100,28 @@ padding: 0;
  }
  .modal{
   width: 392px;
+  padding: 72px 24px 24px 16px;
 }
 }
 
 @media screen and (min-width: 768px) {
   header .container {
       display: flex;}
-    .container {
+  .container {
       max-width: 768px;
-      padding: 0 15px;
+      /* padding: 0 15px; */
       }
-      .menu-open-btn{
+ .menu-open-btn{
         display: none;
       }
-    .wedo-items{
+.wedo-items{
       width: calc((100% - 24px)/ 2);
     }
-    .flex-ul {
+.flex-ul {
       display: flex;
-      gap:24px;
+      gap:72px 24px;
     }
-    .main-text-block {
+ .main-text-block {
       font-weight: 500;
   }
   .article-heading {
@@ -148,6 +150,7 @@ padding: 0;
  }
 .main-heding {
     font-size: 56px;
+    text-align: center;
 }
 .custom-sosial-item {
   width: calc((100% - 48px) / 3);
@@ -161,14 +164,23 @@ padding: 0;
 .icons-horizont {
   justify-content:left;
 }
+.footer-form {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center
+}
+
 .foot-text {
   margin: 0;
 }
 .container-footer{
   flex-flow: row;
   flex-wrap: wrap;
-  padding: 0 108px;;
+  gap: 72px 24px;
+ justify-content: center;
 }
+
 .header-contacts{
   display: flex;
   
@@ -177,9 +189,12 @@ padding: 0;
   display: flex;
   flex-direction: column;
   gap: 12px;
-  margin-left: 121px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
-
+.contacts {
+  font-size: 12px;
+}
  .navigation{
   display: flex;
  }
@@ -200,7 +215,17 @@ padding: 0;
    }
    .modal{
     width: 408px;
+    padding: 72px 23px 24px 24px;
  }
+ .naw-lists-link.active::after,
+ .naw-lists-link:hover:after,
+ .naw-lists-link:focus:after 
+ {
+ bottom: -34px;}
+
+ .head-lists {
+  padding:0;
+}
 }
   @media screen and (min-width: 1158px) {
     header .container {
@@ -266,6 +291,7 @@ padding: 0;
  }
 .main-heding {
     font-size: 56px;
+    text-align: center;
 }
 .custom-sosial-item {
   width: calc((100% - 120px) / 6);
@@ -307,7 +333,11 @@ padding: 0;
  }
  .header-contacts-new {
   flex-direction: row;
-  gap: 40px;}
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+}
 
   .hamburger-menu{
     display: none;
@@ -324,4 +354,15 @@ padding: 0;
  .modal{
   width: 408px;
 }
+.head-lists {
+  padding:0;
+}
+.contacts {
+  font-size: 16px;
+}
+.naw-lists-link.active::after,
+.naw-lists-link:hover:after,
+.naw-lists-link:focus:after 
+{
+bottom: -28px;}
   }
