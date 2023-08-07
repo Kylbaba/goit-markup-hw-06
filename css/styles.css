@@ -918,10 +918,8 @@ justify-content: center;
 /* gap:56px; */
 gap: 36px;
 margin-top: 48px;
-margin-left: auto;
-margin-right: auto;
 }
 
 .mob-menu-sosial-item{
-  /* width: calc((100% - 168px)/ 4); */
+  width: calc((100% - 168px)/ 4);
 }
