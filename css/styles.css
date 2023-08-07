@@ -823,8 +823,7 @@ border:0;
 
 
 .mobil-menu{
-  
-  /* max-width: 428px; */
+
    position: fixed;
   top: 0;
   left: 0;
@@ -839,17 +838,16 @@ border:0;
  flex-direction: column;
  justify-content: space-between;
  transform: translateX(100%);
+ transition: transform 250ms ease-in-out;
 }
-.mobil-menu .is-open{
+.is-open{
   transform: translateX(0);
 }
 .mobil-menu:hover,
 .mobil-menu:focus {
   color: var(--color,#404bbf);
 }
-.mobil-close-btn{
 
-}
 .mob-menu{
   margin-top: 56px;
   display: flex;
