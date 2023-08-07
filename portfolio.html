@@ -20,26 +20,96 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/media.css" />
     <title>WebStudio</title>
   </head>
   <body class="main-style">
-    <header class="header-pad head-lists">
+    <header class="head-lists header-pad">
       <div class="container">
         <nav class="navv">        
-           <a href="index.html" class="head-logo">
-              <span class="logo-accent">Web</span>Studio</a>
-            <ul class="navigation">
-            <li><a class="naw-lists-link" href="index.html">Studio</a></li>
-            <li><a class="naw-lists-link active" href="portfolio.html">Portfolio</a></li>
-            <li><a class="naw-lists-link" href="#contacts">Contacts</a></li>
-          </ul>
-        </nav>
-        <address class="header-contacts">
-          <ul class="header-contacts-new">
-        <li><a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-      <li><a class="contacts" href="tel:+1212-772-4150">+11 (000) 111-11-11</a></li>
+          <a href="index.html" class="head-logo">
+             <span class="logo-accent">Web</span>Studio</a>
+           <ul class="navigation">
+           <li class="aw-lists-link"><a class="naw-lists-link active" href="index.html">Studio</a></li>
+           <li><a class="naw-lists-link" href="portfolio.html">Portfolio</a></li>
+           <li><a class="naw-lists-link" href="#contacts">Contacts</a></li>
+         </ul>
+         <button type="button" class="menu-open-btn hamburger-menu btn js-open-menu" 
+         aria-expanded="false" aria-controls="mobile-menu">
+          <svg class="svg-menu" width="32" height="32">
+            <use href="./images/icons.svg#icon-menu-hamburger"></use>
+          </svg>
+         </button>
+       </nav>
+       <address class="header-contacts">
+         <ul class="header-contacts-new">
+       <li><a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+     <li><a class="contacts" href="tel:+1212-772-4150">+11 (000) 111-11-11</a></li>
+     </ul>
+   </address>
+  </div>
+      <div class="mobil-menu js-menu-container" id="mobile-menu">
+        <div>
+        <button type="button" class="modal-close-btn mobil-close-btn js-close-menu">
+          <svg class="modal-close-svg" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-black">
+          </use>
+        </svg>
+        </button>
+        <ul class="mob-menu">
+          <li class="mob-menu-lists-link">
+            <a class="mob-link active" href="index.html">Studio</a></li>
+          <li class="mob-menu-lists-link">
+            <a class="mob-link" href="portfolio.html">Portfolio</a></li>
+          <li class="mob-menu-lists-link">
+            <a class="mob-link" href="#contacts">Contacts</a></li>
+        </ul>
+      </div>
+        <address class="mob-contacts">
+          <ul class="mob-contacts-new">
+            <li><a class="mob-contacts-tl" href="tel:+1212-772-4150">+11 (000) 111-11-11</a></li>
+        <li><a class="mob-contacts-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      </ul>
+      <ul class="icons-mob-menu">
+        <li class="mob-menu-sosial-item">
+          <a class="icons-link" 
+          href="#" 
+          rel="">             
+          <svg class="svg-sosial-link" width="16" height="16">
+          <use href="./images/icons.svg#icon-instagram"></use>
+        </svg>
+    </a>
+      </li>
+      <li class="mob-menu-sosial-item">
+        <a class="icons-link" 
+        href="#" 
+        rel="">             
+        <svg class="svg-sosial-link" width="16" height="16">
+        <use href="./images/icons.svg#icon-twitter"></use>
+      </svg>
+  </a>
+    </li>
+    <li class="mob-menu-sosial-item">
+      <a class="icons-link" 
+      href="#" 
+      rel="">             
+      <svg class="svg-sosial-link" width="16" height="16">
+      <use href="./images/icons.svg#icon-facebook"></use>
+    </svg>
+</a>
+  </li>
+  <li class="mob-menu-sosial-item">
+    <a class="icons-link" 
+    href="#" 
+    rel="">             
+    <svg class="svg-sosial-link" width="16" height="16">
+    <use href="./images/icons.svg#icon-linkedin"></use>
+  </svg>
+</a>
+</li>
       </ul>
     </address>
+
       </div>
     </header>
     <main>
@@ -258,23 +328,22 @@
   </a>
     </li>
           </ul>
-        </div>
-        <div class="empty">
-          <p class="sosial-media-footer-hed sosial-media-footer-last">Subscribe</p>
-          <form class="footer-form">  
-            <label for="footer-email" class="empty">      
-              <input class="email-input" type="email" id="footer-email"
-               name="user-email" placeholder="E-mail" />  </label>    
-            <button class="subscribe-btn btn" type="submit">Subscribe
-              <svg class="sendlsvg" width="24" height="24">
-                <use href="./images/icons.svg#icon-frame">
-                </use>
-              </svg>
-            </button>
-         
-          </form>
-        </div>
+        </div>          
+          <div class="empty">
+        <p class="sosial-media-footer-hed sosial-media-footer-last">Subscribe</p>
+        <form class="footer-form">  
+          <label for="footer-email" class="empty">      
+            <input class="email-input" type="email" id="footer-email"
+             name="user-email" placeholder="E-mail" />  </label>    
+          <button class="subscribe-btn btn" type="submit">Subscribe
+            <svg class="sendlsvg" width="24" height="24">
+              <use href="./images/icons.svg#icon-frame">
+              </use>
+            </svg>
+          </button>         
+        </form>
       </div>
+    </div>
   </footer>
   </body>
 </html>
