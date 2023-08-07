@@ -838,6 +838,10 @@ border:0;
  display: flex;
  flex-direction: column;
  justify-content: space-between;
+ transform: translateX(100%);
+}
+.mobil-menu .menu-open{
+  transform: translateX(0);
 }
 .mobil-menu:hover,
 .mobil-menu:focus {
