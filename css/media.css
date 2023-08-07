@@ -94,6 +94,8 @@ height: 22px;
 background: transparent;
 padding: 0;
  }
+ .lists-portfolio {
+  gap: 72px 24px;
  }
 
   @media screen and (min-width: 768px) {
@@ -182,6 +184,8 @@ padding: 0;
  .head-logo {
   margin-right: 76px;
  }
+ .portfolio-botom-section {
+  justify-content: center;}
   }
   
   @media screen and (min-width: 1158px) {
@@ -297,4 +301,6 @@ padding: 0;
    .head-logo {
     margin-right: 76px;
    }
+   .portfolio-botom-section {
+    justify-content: center;}
 }
