@@ -95,11 +95,12 @@ background: transparent;
 padding: 0;
  }
  .lists-portfolio {
-  gap: 72px 24px;
+  gap: 48px 0;
  }
+}
 
-  @media screen and (min-width: 768px) {
-    header .container {
+@media screen and (min-width: 768px) {
+  header .container {
       display: flex;}
     .container {
       max-width: 768px;
@@ -134,6 +135,7 @@ padding: 0;
     height: 436px;
     width: auto;
 }
+
 @media (min-device-pixel-ratio: 2),
  (min-resolution: 192dpi), 
  (min-resolution: 2dppx){
@@ -185,8 +187,15 @@ padding: 0;
   margin-right: 76px;
  }
  .portfolio-botom-section {
-  justify-content: center;}
-  }
+  justify-content: center;
+}
+.lists-portfolio {
+    gap: 72px 24px;
+   }
+   .portfolio-img{
+    width: 356px;
+   }
+ }
   
   @media screen and (min-width: 1158px) {
     header .container {
@@ -302,5 +311,9 @@ padding: 0;
     margin-right: 76px;
    }
    .portfolio-botom-section {
-    justify-content: center;}
+    justify-content: center;
+  }
+    .lists-portfolio {
+      gap: 48px 24px;
+     }
 }
