@@ -109,6 +109,9 @@ padding: 0;
 .asection {
   padding: 72px 16px;
 }
+.portfolio-section {
+  padding: 48px 16px;
+}
 }
 
 @media screen and (min-width: 768px) {
@@ -245,7 +248,11 @@ padding: 0;
   padding: 96px 108px;
 }
 .modal-hed{
-  font-size: 16px;}
+  font-size: 16px;
+}
+.portfolio-section {
+  padding: 64px 16px;
+}
 
 }
   @media screen and (min-width: 1158px) {
@@ -391,5 +398,10 @@ bottom: -28px;}
   padding:120px 156px;
 }
 .modal-hed{
-    font-size: 16px;}
+    font-size: 16px;
   }
+  
+  .portfolio-section {
+    padding: 100px 0 120px 0;
+  }
+}
