@@ -619,7 +619,7 @@ transition: opacity 400ms linear, visibility 400ms linear;
 transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal{
-width: 408px;
+/* width: 408px; */
 min-height: 584px;
 background-color:var(--dairy);
 border-radius: 4px;
@@ -639,7 +639,7 @@ transform: translate(-50%, -50%) scaleY(3);
 .modal-hed{
 color: var(--brand-color-navy-blue);
 text-align: center;
-font-size: 16px;
+font-size: 13px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.5;
@@ -879,17 +879,7 @@ color: var(--brand-color-ocean);
   color: var(--brand-color-iris);
   margin-bottom: 40px;
 }
-@media screen and (min-width: 428px){
-  .mob-contacts-tl{
-    font-size: 36px;}
-    .icons-mob-menu{
-      gap:56px;
-    }
-    .main-heding {
-      font-size: 36px;
-      text-align: center;
-  }
-}
+
 .mob-contacts-mail{
   font-size: 20px;
   font-style: normal;
@@ -907,4 +897,20 @@ justify-content: center;
 gap: 24px;
 margin-top: 48px;
 }
-
+@media screen and (min-width: 400px){
+  .mob-contacts-tl{
+    font-size: 36px;}
+    .icons-mob-menu{
+      gap:56px;
+    }
+    .main-heding {
+      font-size: 36px;
+      text-align: center;
+  }
+  /* .modal{
+    width: 392px;
+  }
+  .modal-hed{
+    font-size: 16px;
+  } */
+}

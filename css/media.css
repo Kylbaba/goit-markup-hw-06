@@ -26,7 +26,6 @@
 .header-section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobil.jpg);
     max-width: 428px;
-    /* height: 432px; */
     padding: 112px 0;
 }
 @media (min-device-pixel-ratio: 2),
@@ -245,11 +244,14 @@ padding: 0;
 .style-footer {
   padding: 96px 108px;
 }
+.modal-hed{
+  font-size: 16px;}
+
 }
   @media screen and (min-width: 1158px) {
     header .container {
       display: flex;
-      padding: 0 16px;
+      /* padding: 0 16px; */
     }
     .container {
       max-width: 1158px;
@@ -388,4 +390,6 @@ bottom: -28px;}
  .asection{
   padding:120px 156px;
 }
+.modal-hed{
+    font-size: 16px;}
   }
