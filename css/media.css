@@ -102,7 +102,7 @@ padding: 0;
  .modal{
   width: 319px;
   padding: 72px 24px 24px 16px;
-  max-height: 584px;
+  /* max-height: 584px; */
 }
 .section {
   padding: 96px 16px;
@@ -225,7 +225,7 @@ padding: 0;
    .modal{
     width: 408px;
     padding: 72px 23px 24px 24px;
-    max-height: 584px;
+    /* max-height: 584px; */
  }
  .naw-lists-link.active::after,
  .naw-lists-link:hover:after,
