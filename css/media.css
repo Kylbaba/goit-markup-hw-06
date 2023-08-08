@@ -1,17 +1,17 @@
 @media screen and (min-width: 320px) {
     .container {
       max-width: 428px;
-      padding-left: 16px;
-      padding-right: 16px;
+      /* padding-left: 16px;
+      padding-right: 16px; */
     }
     .flex-ul {
       flex-wrap: wrap;
       gap: 72px;
     }
-    .section {
-      padding-top: 96px;
-      padding-bottom: 96px;
-    }
+
+.head-lists{
+  padding: 24px 16px;
+}
     .main-text-block {
       font-weight: 500;
   }
@@ -99,8 +99,14 @@ padding: 0;
   gap: 48px 0;
  }
  .modal{
-  width: 392px;
+  width: 320px;
   padding: 72px 24px 24px 16px;
+}
+.section {
+  padding: 96px 16px;
+}
+.asection {
+  padding: 72px 16px;
 }
 }
 
@@ -111,6 +117,7 @@ padding: 0;
       max-width: 768px;
       /* padding: 0 15px; */
       }
+
  .menu-open-btn{
         display: none;
       }
@@ -132,7 +139,7 @@ padding: 0;
   }
  
   .advanteges-container{
-    padding: 0 16px;
+    /* padding: 0 16px; */
   }
   .header-section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/planshet.jpg); 
@@ -178,7 +185,7 @@ padding: 0;
   flex-flow: row;
   flex-wrap: wrap;
   gap: 72px 24px;
- justify-content: center;
+ /* justify-content: center; */
 }
 
 .header-contacts{
@@ -224,7 +231,16 @@ padding: 0;
  bottom: -34px;}
 
  .head-lists {
-  padding:0;
+  padding:0 16px;
+}
+.section {
+  padding:96px 108px;
+}
+.asection{
+  padding: 96px 16px;
+}
+.style-footer {
+  padding: 96px 108px;
 }
 }
   @media screen and (min-width: 1158px) {
@@ -232,8 +248,8 @@ padding: 0;
       display: flex;}
     .container {
       max-width: 1158px;
-      padding-left: 15px;
-      padding-right: 15px;
+      /* padding-left: 15px;
+      padding-right: 15px; */
     }
     .menu-open-btn{
       display: none;
@@ -245,9 +261,7 @@ padding: 0;
       gap: 24px;
       flex-wrap: nowrap;
      }
-     .section {
-      padding-bottom: 120px;
-    }
+  
     .advanteges-icon-box{
       display: flex;
       align-items: center;
@@ -365,4 +379,10 @@ padding: 0;
 .naw-lists-link:focus:after 
 {
 bottom: -28px;}
+.section {
+  padding-bottom: 120px;
+}
+ .asection{
+  padding:120px 156px;
+}
   }
