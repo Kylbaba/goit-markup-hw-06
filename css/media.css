@@ -1,66 +1,59 @@
 @media screen and (min-width: 320px) {
     .container {
       max-width: 428px;
-      /* padding-left: 16px;
-      padding-right: 16px; */
     }
     .flex-ul {
       flex-wrap: wrap;
       gap: 72px;
     }
 
-.head-lists{
-  padding: 24px 16px;
+     .head-lists{
+      padding: 24px 16px;
 }
     .main-text-block {
       font-weight: 500;
   }
-  .flex-ul-team{
-    gap:72px 24px;
+    .flex-ul-team{
+      gap:72px 24px;
   }
-.main-heding {
-  font-size: 30px;
-  text-align: center;
+    .main-heding {
+      font-size: 30px;
+      text-align: center;
 }
-
-.header-section {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobil.jpg);
-    max-width: 428px;
-    padding: 112px 0;
+    .header-section {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobil.jpg);
+      max-width: 428px;
+      padding: 112px 0;
 }
 @media (min-device-pixel-ratio: 2),
  (min-resolution: 192dpi), 
  (min-resolution: 2dppx){
- .header-section {
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mob-x2.jpg);
+    .header-section {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mob-x2.jpg);
 }
  }
-.style-footer {
+    .style-footer {
     padding: 97.5px 0;
 }
-.container-footer {
+  .container-footer {
     display: flex;
     flex-direction: column;
     gap: 72px;
   }
-  .custom-sosial-item {
+    .custom-sosial-item {
     width: calc((100% - 16px) / 2);
 }
-  /* .email-input{
-  margin-bottom: 16px;
-  } */
-
-.sosial-media-footer-hed {
+      .sosial-media-footer-hed {
     text-align: center;
   }
- .foot-text {
+    .foot-text {
     margin: 0 auto;}
 
- .logo-footer {
+    .logo-footer {
       text-align: center;
     }
 
-.icons-horizont {
+    .icons-horizont {
       justify-content: center;
   }
 .footer-form {
@@ -70,13 +63,13 @@
     justify-content: center;
 
 }
-.header-contacts{
+    .header-contacts{
   display: none;
  }
- .navigation{
+    .navigation{
   display: none;
  }
- .svg-menu{
+    .svg-menu{
   fill: var( --brand-color-navy-blue,#2E2F42);
  }
  .head-logo {
@@ -101,8 +94,7 @@ padding: 0;
  .modal{
   width: 319px;
   padding: 72px 24px 24px 16px;
-  /* max-height: 584px; */
-}
+ }
 .section {
   padding: 96px 16px;
 }
@@ -119,7 +111,6 @@ padding: 0;
       display: flex;}
   .container {
       max-width: 768px;
-      /* padding: 0 15px; */
       }
 
  .menu-open-btn{
@@ -142,13 +133,9 @@ padding: 0;
     gap:64px 24px;
   }
  
-  .advanteges-container{
-    /* padding: 0 16px; */
-  }
   .header-section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/planshet.jpg); 
     max-width: 768px;
-    /* height: 436px; */
     width: auto;
 }
 
@@ -189,7 +176,6 @@ padding: 0;
   flex-flow: row;
   flex-wrap: wrap;
   gap: 72px 24px;
- /* justify-content: center; */
 }
 
 .header-contacts{
@@ -227,7 +213,6 @@ padding: 0;
    .modal{
     width: 408px;
     padding: 72px 23px 24px 24px;
-    /* max-height: 584px; */
  }
  .naw-lists-link.active::after,
  .naw-lists-link:hover:after,
@@ -257,13 +242,10 @@ padding: 0;
 }
   @media screen and (min-width: 1158px) {
     header .container {
-      display: flex;
-      /* padding: 0 16px; */
+      display: flex;    
     }
     .container {
       max-width: 1158px;
-      /* padding-left: 15px;
-      padding-right: 15px; */
     }
     .menu-open-btn{
       display: none;

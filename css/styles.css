@@ -52,15 +52,8 @@ img {
   height: auto;
 }
 
- /* .container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-} */
 .container {
   max-width:100%;
-  /* padding-left: 16px;
-  padding-right: 16px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -119,7 +112,6 @@ header .container {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* padding: 24px 0; */
   transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .active{
@@ -156,8 +148,6 @@ header .container {
 display: flex;
 align-items: center;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
-/* max-width: 1440px;
-height: 600px; */
 background-position: center;
 background-size: cover;
 margin: 0 auto;
@@ -197,8 +187,6 @@ margin-bottom: 48px;
   text-align: center;
 }
 .solution-container{
-  /* width: 496px;
-  height: 120px; */
   margin: 0 auto;
 }
 .our-team {
@@ -207,7 +195,6 @@ margin-bottom: 48px;
 
 .flex-ul {
   display: flex;
-  /* gap: 24px; */
   flex-wrap: wrap;
   gap: 72px;
 }
@@ -221,12 +208,10 @@ justify-content: center;
 
 .wedo-items{
 width: 100%;
-  /* width: calc((100% - 48px) / 3); */
 }
 .advanteges-icon-box{
   display: none;
-  /* display: flex; */
-  align-items: center;
+    align-items: center;
   justify-content: center;
   margin-bottom: 8px; 
   border-radius: 4px;
@@ -255,7 +240,6 @@ width: 100%;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
-    /* font-weight: 500; */
   }
   
 .main-btn {
@@ -286,15 +270,9 @@ width: 100%;
   color: var(--text-color-white, white);
 }
 .section {
-  /* padding-top: 120px; */
   padding-bottom: 120px;
-  /* padding-top: 96px;
-  padding-bottom: 96px; */
-  /* max-width:1440px; */
 }
-.portfolio-section {
-  /* padding: 96px 0 120px 0; */
-}
+
 .section-whatwedo {
   display: none;
   padding-top: 0px;
@@ -445,8 +423,6 @@ width: 100%;
  flex-wrap: wrap;
  align-items: center;
  justify-content: center;
- /* gap: 24px; */
- /* gap: 72px 24px; */
  gap: 72px 16px;
 }
 .customers-icon-box:hover, 
@@ -456,8 +432,6 @@ fill:var(--brand-color-ocean);
 .customers-icons-link{
   display: flex;
   align-items: center;
-  /* width: 190px; */
-  /* width: 168px; */
   height: 88px;
   justify-content: center;
   fill:var(--lite-slate);
@@ -480,7 +454,6 @@ fill:var(--brand-color-ocean);
   padding: 100px 0;
 }
 .foot-text {
-  /* margin: 0 auto; */
   max-width: 264px;
   color: var(--text-color-footer);
   font-weight: 400;
@@ -490,26 +463,14 @@ fill:var(--brand-color-ocean);
   margin-top: 17.5px;
  
 }
-.indent{
-  /* margin-right: 120px; */
-}
-.sosial-media-footer-distans{
-  /* margin-right: 80px; */
-}
+
 .container-footer {
   display: flex;
-  /* flex-direction: column; */
-    /* max-width: 428px;
-    padding-left: 16px;
-    padding-right: 16px;
-  align-items: baseline;
-  text-align: left; */
 }
 .logo-footer {
   margin-bottom: 17.5px;
   display: block;
   font-family: 'Raleway';
-  /* text-align: left; */
   color: var(--brand-color-shad);
   font-weight: 800;
   font-size: 18px;
@@ -538,8 +499,6 @@ height: 24px;
 margin-left: 16px; 
 }
 .footer-form{
-/* display: flex;
-gap: 24px; */
 fill:var(--text-color-white);
 }
 .subscribe-btn{
@@ -556,7 +515,6 @@ letter-spacing: 0.04em;
 color:var(--text-color-white);
 background-color: var(--brand-color-iris);
 margin:0 auto;
-/* padding: 8px 24px; */
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .email-input{
@@ -761,9 +719,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .label-license{
 margin: 0;
-/* display: flex;
-align-items: center;
-justify-content: center; */
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
@@ -863,9 +818,6 @@ color: var(--brand-color-ocean);
   margin: 0 auto;
 }
 .mob-contacts-new{
-  /* display:flex; */
-  /* flex-direction: column; */
-  /* gap: 40px; */
   margin: 0 auto;
 }
 
@@ -893,7 +845,6 @@ color: var(--brand-color-ocean);
 display: flex;
 align-items: center;
 justify-content: center;
-/* gap:56px; */
 gap: 24px;
 margin-top: 48px;
 }
@@ -907,10 +858,4 @@ margin-top: 48px;
       font-size: 36px;
       text-align: center;
   }
-  /* .modal{
-    width: 392px;
-  }
-  .modal-hed{
-    font-size: 16px;
-  } */
 }
